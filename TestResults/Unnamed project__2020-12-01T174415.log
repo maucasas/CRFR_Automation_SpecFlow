@@ -1,0 +1,441 @@
+﻿2020-12-01T17:44:15.7860925-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-01T17:44:15.7862055-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework netcore31 in x64 mode execution started
+2020-12-01T17:44:15.7862124-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-01T17:44:15.7887383-05:00;VSTestExecutionThread;Info;Current UserName: 'maucasas', MachineName: 'WKWCO7519602'
+2020-12-01T17:44:15.8257844-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll
+2020-12-01T17:44:15.8261378-05:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\TestResults" (default)
+2020-12-01T17:44:15.8263658-05:00;VSTestExecutionThread;Info;Profile: 
+2020-12-01T17:44:15.9100332-05:00;VSTestExecutionThread;Info;Log file path: C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\TestResults\Unnamed project__2020-12-01T174415.log
+2020-12-01T17:44:15.9216209-05:00;Thread#14;Info;Checking activation
+2020-12-01T17:44:16.0746863-05:00;Thread#14;Info;Activated.
+2020-12-01T17:44:16.0750290-05:00;Thread#14;Info;Activation check completed
+2020-12-01T17:44:16.0751314-05:00;Thread#14;Info;Starting test run
+2020-12-01T17:44:17.2330852-05:00;Thread#14;Info;Discovering target: Default
+2020-12-01T17:44:17.2333805-05:00;Thread#14;Info;Discovering tests from assembly: C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll
+2020-12-01T17:44:17.3882168-05:00;Thread#14;Info;Discovered tests from assembly: C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll
+2020-12-01T17:44:17.3897826-05:00:Test Suite Dump
+2020-12-01T17:44:17.3917380-05:00:#0: Unnamed project/ - 
+2020-12-01T17:44:17.3917545-05:00:#1: Default - 
+2020-12-01T17:44:17.3917567-05:00:#2: CRFR_Automation_SpecFlow - 
+2020-12-01T17:44:17.3917585-05:00:#4: CampaignsGrid - 
+2020-12-01T17:44:17.3917606-05:00:#7: ClientData - 
+2020-12-01T17:44:17.3917619-05:00:#10: LoginCRFRFeature - 
+2020-12-01T17:44:17.3917630-05:00:#13: SideNavFeature - 
+2020-12-01T17:44:17.3931076-05:00:#5: Campaign Grid Is populated With Mediaocean (OX)/Prisma and Google Campaign Manager plaforms - TestAssembly:CRFR_Automation_SpecFlow/Feature:CampaignsGrid/Scenario:Campaign+Grid+Is+populated+With+Mediaocean+(OX)%2fPrisma+and+Google+Campaign+Manager+plaforms
+2020-12-01T17:44:17.3931459-05:00:#6: Campaign row clickable to navigate to creative workbook - TestAssembly:CRFR_Automation_SpecFlow/Feature:CampaignsGrid/Scenario:Campaign+row+clickable+to+navigate+to+creative+workbook
+2020-12-01T17:44:17.3931561-05:00:#8: Elements visibles for the first visit, enabled - TestAssembly:CRFR_Automation_SpecFlow/Feature:ClientData/Scenario:Elements+visibles+for+the+first+visit%2c+enabled
+2020-12-01T17:44:17.3931626-05:00:#9: Selection of Agency, Client, Region, Country, enabled - TestAssembly:CRFR_Automation_SpecFlow/Feature:ClientData/Scenario:Selection+of+Agency%2c+Client%2c+Region%2c+Country%2c+enabled
+2020-12-01T17:44:17.3931687-05:00:#11: Login in Creative Framework, global-admin - TestAssembly:CRFR_Automation_SpecFlow/Feature:LoginCRFRFeature/Scenario:Login+in+Creative+Framework%2c+global-admin
+2020-12-01T17:44:17.3931806-05:00:#12: Login in Creative Framework, regular-user - TestAssembly:CRFR_Automation_SpecFlow/Feature:LoginCRFRFeature/Scenario:Login+in+Creative+Framework%2c+regular-user
+2020-12-01T17:44:17.3931873-05:00:#14: Elements visibles in SideNav based in user role, global-admin - TestAssembly:CRFR_Automation_SpecFlow/Feature:SideNavFeature/Scenario:Elements+visibles+in+SideNav+based+in+user+role%2c+global-admin
+2020-12-01T17:44:17.3931931-05:00:#15: Elements visibles in SideNav based in user role, regular-user - TestAssembly:CRFR_Automation_SpecFlow/Feature:SideNavFeature/Scenario:Elements+visibles+in+SideNav+based+in+user+role%2c+regular-user
+2020-12-01T17:44:17.3932477-05:00:End: Test Suite Dump
+2020-12-01T17:44:17.4113090-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-01T17:44:17.4135931-05:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2020-12-01T17:44:17.4136709-05:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-12-01T17:44:17.4171113-05:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-01T17:44:17.4171238-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-12-01T17:44:17.4171272-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-12-01T17:44:17.4171305-05:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-12-01T17:44:17.4181186-05:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-12-01T17:44:17.4199746-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-01T17:44:17.4226113-05:00:Thread #0: creating new test thread executor for CRFR_Automation_SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-01T17:44:17.4256184-05:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-12-01T17:44:17.4259148-05:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-12-01T17:44:17.4438740-05:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-12-01T17:44:17.4464532-05:00:starting Out Of Process Executor
+2020-12-01T17:44:17.4722925-05:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-01T17:44:17.4749913-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-12-01T17:44:17.4750028-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-12-01T17:44:17.4762995-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-12-01T17:44:17.4769422-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-12-01T17:44:17.4770429-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-12-01T17:44:17.4770905-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-12-01T17:44:17.4773392-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-12-01T17:44:17.4780704-05:00:Tfm: netcoreapp3.1
+2020-12-01T17:44:17.4780835-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-12-01T17:44:17.4780853-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-12-01T17:44:17.4781581-05:00:[AssemblyCache] Found file 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2020-12-01T17:44:17.5009217-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2020-12-01T17:44:17.5022067-05:00:Starting callback TCP Rpc server
+2020-12-01T17:44:17.5279600-05:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-12-01T17:44:17.5280598-05:00:Started callback TCP Rpc server on port 32768
+2020-12-01T17:44:17.5280640-05:00:Starting logger TCP Rpc server
+2020-12-01T17:44:17.5321254-05:00:Asynchronously starting background TCP Rpc Server on port 32769
+2020-12-01T17:44:17.5321824-05:00:Started logger TCP Rpc server on port 32769
+2020-12-01T17:44:17.6427237-05:00;Thread#14;Info;Executor full path resolved: C:\Program Files\dotnet\dotnet.exe
+2020-12-01T17:44:17.6455848-05:00;Thread#14;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2020-12-01T17:44:18.7748624-05:00;Thread#14;Info;Successfully started SpecFlow+ Runner executor process
+2020-12-01T17:44:18.7815499-05:00:Out of Process Executor 5856 started
+2020-12-01T17:44:18.7815753-05:00:Waiting for endpoint
+2020-12-01T17:44:23.6229403-05:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-01T17:44:23.6230441-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-12-01T17:44:23.6230503-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-12-01T17:44:23.6230689-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-12-01T17:44:23.6230721-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-12-01T17:44:23.6231617-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-12-01T17:44:23.6232128-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-12-01T17:44:23.6232307-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-12-01T17:44:23.6233542-05:00:Tfm: netcoreapp3.1
+2020-12-01T17:44:23.6233783-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-12-01T17:44:23.6233818-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-12-01T17:44:23.6234600-05:00:[AssemblyCache] Found file 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2020-12-01T17:44:23.6448707-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2020-12-01T17:44:24.0680590-05:00:Remote executor port received: 32770
+2020-12-01T17:44:24.0684414-05:00:Creating executor TCP client on port 32770
+2020-12-01T17:44:24.0688634-05:00:Created executor TCP client on port 32770
+2020-12-01T17:44:24.0688741-05:00:Connecting to remote executor TCP server
+2020-12-01T17:44:24.0701266-05:00:Connected remote executor TCP server
+2020-12-01T17:44:24.0705369-05:00:trying to connect to Out of Process Executor the 1 attempt
+2020-12-01T17:44:24.0705456-05:00:Connection to Out of Process Executor established in the 1 attempt
+2020-12-01T17:44:24.2748114-05:00:2020-12-01T17:44:24.2723233-05:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll on test thread #0
+2020-12-01T17:44:24.2843939-05:00:Endpoint 5856 started
+2020-12-01T17:44:24.3120248-05:00:2020-12-01T17:44:24.3104858-05:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-12-01T17:44:24.4564879-05:00:2020-12-01T17:44:24.4554772-05:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-12-01T17:44:24.4626746-05:00:2020-12-01T17:44:24.4613904-05:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-12-01T17:44:24.4672748-05:00:2020-12-01T17:44:24.4663340-05:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\maucasas\.nuget\packages\specflow\3.4.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-12-01T17:44:24.6349715-05:00:2020-12-01T17:44:24.6333224-05:00:Thread#0:T:-> Loading plugin C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2020-12-01T17:44:24.6553554-05:00:2020-12-01T17:44:24.6537538-05:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-12-01T17:44:24.6588155-05:00:2020-12-01T17:44:24.6574172-05:00:Assembly resolving LivingDoc.Dtos, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+2020-12-01T17:44:24.6621244-05:00:2020-12-01T17:44:24.6603827-05:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2020-12-01T17:44:24.6645552-05:00:2020-12-01T17:44:24.6635527-05:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\maucasas\.nuget\packages\specflow.plus.livingdocplugin\3.4.211\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2020-12-01T17:44:24.6748779-05:00:2020-12-01T17:44:24.6736876-05:00:Thread#0:T:-> Loading plugin C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-01T17:44:24.6917556-05:00:2020-12-01T17:44:24.6905008-05:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-12-01T17:44:24.6988014-05:00:2020-12-01T17:44:24.6975572-05:00:Thread#0:T:-> Using default config
+2020-12-01T17:44:24.7104561-05:00:2020-12-01T17:44:24.7095030-05:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-12-01T17:44:24.7118755-05:00:2020-12-01T17:44:24.7112737-05:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-12-01T17:44:24.7133780-05:00:2020-12-01T17:44:24.7127612-05:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\maucasas\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-12-01T17:44:24.7210871-05:00:2020-12-01T17:44:24.7202195-05:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-12-01T17:44:24.7227159-05:00:2020-12-01T17:44:24.7218453-05:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-12-01T17:44:24.7241746-05:00:2020-12-01T17:44:24.7236720-05:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\maucasas\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-12-01T17:44:24.7588055-05:00:2020-12-01T17:44:24.7578699-05:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-01T17:44:24.7605087-05:00:2020-12-01T17:44:24.7597358-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-12-01T17:44:24.7625528-05:00:2020-12-01T17:44:24.7617082-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\maucasas\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-12-01T17:44:24.8142743-05:00:2020-12-01T17:44:24.8133412-05:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2020-12-01T17:44:24.8154947-05:00:2020-12-01T17:44:24.8150393-05:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2020-12-01T17:44:24.8166356-05:00:2020-12-01T17:44:24.8162183-05:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\maucasas\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2020-12-01T17:44:25.1155607-05:00:Thread#0: Test #5/0 is started on thread #0
+2020-12-01T17:44:25.1461594-05:00:2020-12-01T17:44:25.1451535-05:00:Thread#0:B:Given that the test user is as global-admin level user
+2020-12-01T17:44:25.1730547-05:00:2020-12-01T17:44:25.1722820-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheTestUserIsAsLevelUser("global-admin") (0.0s)
+2020-12-01T17:44:25.1767098-05:00:2020-12-01T17:44:25.1756111-05:00:Thread#0:B:And that the test user has logged into CCF
+2020-12-01T17:44:25.1806506-05:00:2020-12-01T17:44:25.1797202-05:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2020-12-01T17:44:25.1826140-05:00:2020-12-01T17:44:25.1816979-05:00:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2020-12-01T17:44:25.1841381-05:00:2020-12-01T17:44:25.1836182-05:00:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\maucasas\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll'
+2020-12-01T17:44:35.4150077-05:00:2020-12-01T17:44:35.4133739-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheUserHasLoggedIntoCCF() (10.2s)
+2020-12-01T17:44:35.4183754-05:00:2020-12-01T17:44:35.4169220-05:00:Thread#0:B:And that the agencyDropdown is enabled
+2020-12-01T17:44:35.4231109-05:00:2020-12-01T17:44:35.4218187-05:00:Assembly resolving Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-01T17:44:35.4249358-05:00:2020-12-01T17:44:35.4240984-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.QualityTools.UnitTestFramework' from .deps.json file
+2020-12-01T17:44:35.4272418-05:00:2020-12-01T17:44:35.4261994-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.QualityTools.UnitTestFramework' to 'C:\Users\maucasas\.nuget\packages\microsoft_visualstudio_qualitytools_unittestframework.stw\12.0.21005.1\lib\net40\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'
+2020-12-01T17:44:41.0948319-05:00:2020-12-01T17:44:41.0926885-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheAgencyDropdownIs("enabled") (5.7s)
+2020-12-01T17:44:41.1002446-05:00:2020-12-01T17:44:41.0980964-05:00:Thread#0:B:And the test user selects a agency
+2020-12-01T17:44:41.1503018-05:00:2020-12-01T17:44:41.1492697-05:00:Thread#0:T:waiting for enter Text in Element: AgencyDropdown
+2020-12-01T17:44:42.5041638-05:00:2020-12-01T17:44:42.5028431-05:00:Thread#0:T:waiting for enter Text in Element: AgencyDropdown
+2020-12-01T17:44:43.5557698-05:00:2020-12-01T17:44:43.5542354-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("agency") (2.5s)
+2020-12-01T17:44:43.5592970-05:00:2020-12-01T17:44:43.5576838-05:00:Thread#0:B:And the test user selects a client
+2020-12-01T17:44:43.5835269-05:00:2020-12-01T17:44:43.5823172-05:00:Thread#0:T:waiting for enter Text in Element: ClientDropdown
+2020-12-01T17:44:45.0389397-05:00:2020-12-01T17:44:45.0376527-05:00:Thread#0:T:waiting for enter Text in Element: ClientDropdown
+2020-12-01T17:44:46.1033256-05:00:2020-12-01T17:44:46.0953741-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("client") (2.5s)
+2020-12-01T17:44:46.1065928-05:00:2020-12-01T17:44:46.1053751-05:00:Thread#0:B:And the test user selects a region
+2020-12-01T17:44:46.1303211-05:00:2020-12-01T17:44:46.1291377-05:00:Thread#0:T:waiting for enter Text in Element: RegionDropdown
+2020-12-01T17:44:47.4340277-05:00:2020-12-01T17:44:47.4328572-05:00:Thread#0:T:waiting for enter Text in Element: RegionDropdown
+2020-12-01T17:44:48.4827502-05:00:2020-12-01T17:44:48.4815883-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("region") (2.4s)
+2020-12-01T17:44:48.4866373-05:00:2020-12-01T17:44:48.4851232-05:00:Thread#0:B:When the test user selects a country
+2020-12-01T17:44:48.5082846-05:00:2020-12-01T17:44:48.5074524-05:00:Thread#0:T:waiting for enter Text in Element: CountryDropdown
+2020-12-01T17:44:49.6782886-05:00:2020-12-01T17:44:49.6773166-05:00:Thread#0:T:waiting for enter Text in Element: CountryDropdown
+2020-12-01T17:44:50.7243357-05:00:2020-12-01T17:44:50.7232269-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("country") (2.2s)
+2020-12-01T17:44:50.7341428-05:00:2020-12-01T17:44:50.7328233-05:00:Thread#0:B:Then The CampaignGrid Is rendered
+2020-12-01T17:44:50.7527501-05:00:2020-12-01T17:44:50.7520495-05:00:Thread#0:T:done: CampaignsGridStepDefinition.ThenTheCampaignGridIsRendered() (0.0s)
+2020-12-01T17:44:50.7538340-05:00:2020-12-01T17:44:50.7534710-05:00:Thread#0:B:And the plaform column is popuplated with platforms
+2020-12-01T17:44:50.8629617-05:00:2020-12-01T17:44:50.8622872-05:00:Thread#0:T:done: CampaignsGridStepDefinition.ThenThePlaformColumnIsPopuplatedWithPlatforms() (0.1s)
+2020-12-01T17:44:50.8792124-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-01T17:44:50.8792530-05:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2020-12-01T17:44:50.8792564-05:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2020-12-01T17:44:50.8793575-05:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-01T17:44:50.8793630-05:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2020-12-01T17:44:50.8793640-05:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2020-12-01T17:44:50.8793654-05:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2020-12-01T17:44:50.8794047-05:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2020-12-01T17:44:50.8794411-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-01T17:44:50.9269007-05:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 25.8100395 seconds
+2020-12-01T17:44:50.9297923-05:00:Thread#0: Test #6/0 is started on thread #0
+2020-12-01T17:44:50.9325274-05:00:2020-12-01T17:44:50.9318707-05:00:Thread#0:B:Given that the test user is as global-admin level user
+2020-12-01T17:44:50.9339602-05:00:2020-12-01T17:44:50.9333917-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheTestUserIsAsLevelUser("global-admin") (0.0s)
+2020-12-01T17:44:50.9351582-05:00:2020-12-01T17:44:50.9345511-05:00:Thread#0:B:And that the test user has logged into CCF
+2020-12-01T17:45:01.0015565-05:00:2020-12-01T17:45:00.9999044-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheUserHasLoggedIntoCCF() (10.1s)
+2020-12-01T17:45:01.0041272-05:00:2020-12-01T17:45:01.0032599-05:00:Thread#0:B:And that the agencyDropdown is enabled
+2020-12-01T17:45:06.3522285-05:00:2020-12-01T17:45:06.3508031-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheAgencyDropdownIs("enabled") (5.3s)
+2020-12-01T17:45:06.3537961-05:00:2020-12-01T17:45:06.3533318-05:00:Thread#0:B:And the test user selects a agency
+2020-12-01T17:45:06.3699282-05:00:2020-12-01T17:45:06.3690160-05:00:Thread#0:T:waiting for enter Text in Element: AgencyDropdown
+2020-12-01T17:45:07.5323254-05:00:2020-12-01T17:45:07.5315745-05:00:Thread#0:T:waiting for enter Text in Element: AgencyDropdown
+2020-12-01T17:45:08.5734207-05:00:2020-12-01T17:45:08.5724933-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("agency") (2.2s)
+2020-12-01T17:45:08.5751818-05:00:2020-12-01T17:45:08.5745172-05:00:Thread#0:B:And the test user selects a client
+2020-12-01T17:45:08.5911072-05:00:2020-12-01T17:45:08.5904626-05:00:Thread#0:T:waiting for enter Text in Element: ClientDropdown
+2020-12-01T17:45:09.8968042-05:00:2020-12-01T17:45:09.8958387-05:00:Thread#0:T:waiting for enter Text in Element: ClientDropdown
+2020-12-01T17:45:10.9463713-05:00:2020-12-01T17:45:10.9456383-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("client") (2.4s)
+2020-12-01T17:45:10.9478108-05:00:2020-12-01T17:45:10.9471481-05:00:Thread#0:B:And the test user selects a region
+2020-12-01T17:45:10.9654066-05:00:2020-12-01T17:45:10.9646253-05:00:Thread#0:T:waiting for enter Text in Element: RegionDropdown
+2020-12-01T17:45:12.2792017-05:00:2020-12-01T17:45:12.2783377-05:00:Thread#0:T:waiting for enter Text in Element: RegionDropdown
+2020-12-01T17:45:13.3223989-05:00:2020-12-01T17:45:13.3215618-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("region") (2.4s)
+2020-12-01T17:45:13.3298043-05:00:2020-12-01T17:45:13.3234605-05:00:Thread#0:B:When the test user selects a country
+2020-12-01T17:45:13.3464076-05:00:2020-12-01T17:45:13.3456789-05:00:Thread#0:T:waiting for enter Text in Element: CountryDropdown
+2020-12-01T17:45:14.4953952-05:00:2020-12-01T17:45:14.4948404-05:00:Thread#0:T:waiting for enter Text in Element: CountryDropdown
+2020-12-01T17:45:15.5362994-05:00:2020-12-01T17:45:15.5356584-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("country") (2.2s)
+2020-12-01T17:45:15.5380263-05:00:2020-12-01T17:45:15.5375174-05:00:Thread#0:B:Then The CampaignGrid Is rendered
+2020-12-01T17:45:15.5502760-05:00:2020-12-01T17:45:15.5497238-05:00:Thread#0:T:done: CampaignsGridStepDefinition.ThenTheCampaignGridIsRendered() (0.0s)
+2020-12-01T17:45:15.5516653-05:00:2020-12-01T17:45:15.5510723-05:00:Thread#0:B:And the plaform column is popuplated with platforms
+2020-12-01T17:45:15.6625227-05:00:2020-12-01T17:45:15.6618826-05:00:Thread#0:T:done: CampaignsGridStepDefinition.ThenThePlaformColumnIsPopuplatedWithPlatforms() (0.1s)
+2020-12-01T17:45:15.6656997-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-01T17:45:15.6658509-05:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2020-12-01T17:45:15.6658758-05:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2020-12-01T17:45:15.6659395-05:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-01T17:45:15.6659476-05:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2020-12-01T17:45:15.6659537-05:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2020-12-01T17:45:15.6659630-05:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2020-12-01T17:45:15.6660076-05:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2020-12-01T17:45:15.6660637-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-01T17:45:15.6730564-05:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 24.7428971 seconds
+2020-12-01T17:45:15.6745637-05:00:Thread#0: Test #8/0 is started on thread #0
+2020-12-01T17:45:15.6803546-05:00:2020-12-01T17:45:15.6791847-05:00:Thread#0:B:Given that the test user is as global-admin level user
+2020-12-01T17:45:15.6823567-05:00:2020-12-01T17:45:15.6815252-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheTestUserIsAsLevelUser("global-admin") (0.0s)
+2020-12-01T17:45:15.6839935-05:00:2020-12-01T17:45:15.6832109-05:00:Thread#0:B:And that the test user has logged into CCF
+2020-12-01T17:45:35.8253837-05:00:2020-12-01T17:45:35.8244457-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheUserHasLoggedIntoCCF() (20.1s)
+2020-12-01T17:45:35.8337926-05:00:2020-12-01T17:45:35.8265164-05:00:Thread#0:B:When the test user arrived on client landing
+2020-12-01T17:45:45.1539843-05:00:2020-12-01T17:45:45.1532844-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestArrivedOnClientLanding() (9.3s)
+2020-12-01T17:45:45.1557006-05:00:2020-12-01T17:45:45.1549832-05:00:Thread#0:B:Then the status agencyDropdown is enabled
+2020-12-01T17:45:45.2853572-05:00:2020-12-01T17:45:45.2846170-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheAgencyDropdownIs("enabled") (0.1s)
+2020-12-01T17:45:45.2878501-05:00:2020-12-01T17:45:45.2863546-05:00:Thread#0:B:And the status clientDropdown is disabled
+2020-12-01T17:45:45.3695594-05:00:2020-12-01T17:45:45.3687089-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheClientDropdownIs("disabled") (0.1s)
+2020-12-01T17:45:45.3724725-05:00:2020-12-01T17:45:45.3707799-05:00:Thread#0:B:And the status regionDropdown is disabled
+2020-12-01T17:45:45.4342971-05:00:2020-12-01T17:45:45.4335968-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheRegionDropdownIs("disabled") (0.1s)
+2020-12-01T17:45:45.4355249-05:00:2020-12-01T17:45:45.4349765-05:00:Thread#0:B:And the status countryDropdown is disabled
+2020-12-01T17:45:45.5466799-05:00:2020-12-01T17:45:45.5456371-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheCountryDropdownIs("disabled") (0.1s)
+2020-12-01T17:45:45.5508065-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-01T17:45:45.5509863-05:00:Thread#:Scheduler: testitem #9 from normal test queue 
+2020-12-01T17:45:45.5510088-05:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2020-12-01T17:45:45.5510893-05:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-01T17:45:45.5510993-05:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2020-12-01T17:45:45.5511029-05:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2020-12-01T17:45:45.5511106-05:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2020-12-01T17:45:45.5511938-05:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2020-12-01T17:45:45.5513088-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-01T17:45:45.5765332-05:00:Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 29.9016416 seconds
+2020-12-01T17:45:45.5788651-05:00:Thread#0: Test #9/0 is started on thread #0
+2020-12-01T17:45:45.5940375-05:00:2020-12-01T17:45:45.5827588-05:00:Thread#0:B:Given that the test user is as global-admin level user
+2020-12-01T17:45:45.5958893-05:00:2020-12-01T17:45:45.5951787-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheTestUserIsAsLevelUser("global-admin") (0.0s)
+2020-12-01T17:45:45.5973819-05:00:2020-12-01T17:45:45.5966644-05:00:Thread#0:B:And that the test user has logged into CCF
+2020-12-01T17:45:59.4870082-05:00:2020-12-01T17:45:59.4858990-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheUserHasLoggedIntoCCF() (13.9s)
+2020-12-01T17:45:59.4894024-05:00:2020-12-01T17:45:59.4881594-05:00:Thread#0:B:And the test user arrived on client landing
+2020-12-01T17:46:06.0187739-05:00:2020-12-01T17:46:06.0175632-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestArrivedOnClientLanding() (6.5s)
+2020-12-01T17:46:06.0210348-05:00:2020-12-01T17:46:06.0199218-05:00:Thread#0:B:And that the agencyDropdown is enabled
+2020-12-01T17:46:06.1228511-05:00:2020-12-01T17:46:06.1220192-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheAgencyDropdownIs("enabled") (0.1s)
+2020-12-01T17:46:06.1246170-05:00:2020-12-01T17:46:06.1238876-05:00:Thread#0:B:When the test user selects a agency
+2020-12-01T17:46:06.1463017-05:00:2020-12-01T17:46:06.1454219-05:00:Thread#0:T:waiting for enter Text in Element: AgencyDropdown
+2020-12-01T17:46:07.4187652-05:00:2020-12-01T17:46:07.4179844-05:00:Thread#0:T:waiting for enter Text in Element: AgencyDropdown
+2020-12-01T17:46:08.4919042-05:00:2020-12-01T17:46:08.4913304-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("agency") (2.4s)
+2020-12-01T17:46:08.4991239-05:00:2020-12-01T17:46:08.4926506-05:00:Thread#0:B:Then the status clientDropdown is enabled
+2020-12-01T17:46:08.5482291-05:00:2020-12-01T17:46:08.5475809-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheClientDropdownIs("enabled") (0.0s)
+2020-12-01T17:46:08.5495841-05:00:2020-12-01T17:46:08.5490030-05:00:Thread#0:B:When the test user selects a client
+2020-12-01T17:46:08.5620514-05:00:2020-12-01T17:46:08.5613961-05:00:Thread#0:T:waiting for enter Text in Element: ClientDropdown
+2020-12-01T17:46:09.9315315-05:00:2020-12-01T17:46:09.9310849-05:00:Thread#0:T:waiting for enter Text in Element: ClientDropdown
+2020-12-01T17:46:10.9733327-05:00:2020-12-01T17:46:10.9725056-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("client") (2.4s)
+2020-12-01T17:46:10.9748296-05:00:2020-12-01T17:46:10.9741983-05:00:Thread#0:B:Then the status regionDropdown is enabled
+2020-12-01T17:46:11.0086681-05:00:2020-12-01T17:46:11.0081459-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheRegionDropdownIs("enabled") (0.0s)
+2020-12-01T17:46:11.0101691-05:00:2020-12-01T17:46:11.0094653-05:00:Thread#0:B:When the test user selects a region
+2020-12-01T17:46:11.0261202-05:00:2020-12-01T17:46:11.0256224-05:00:Thread#0:T:waiting for enter Text in Element: RegionDropdown
+2020-12-01T17:46:12.2498630-05:00:2020-12-01T17:46:12.2493295-05:00:Thread#0:T:waiting for enter Text in Element: RegionDropdown
+2020-12-01T17:46:13.2954886-05:00:2020-12-01T17:46:13.2946840-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("region") (2.3s)
+2020-12-01T17:46:13.3026469-05:00:2020-12-01T17:46:13.2964460-05:00:Thread#0:B:Then the status countryDropdown is enabled
+2020-12-01T17:46:13.3359600-05:00:2020-12-01T17:46:13.3353968-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheCountryDropdownIs("enabled") (0.0s)
+2020-12-01T17:46:13.3371991-05:00:2020-12-01T17:46:13.3366826-05:00:Thread#0:B:When the test user selects a country
+2020-12-01T17:46:13.3545123-05:00:2020-12-01T17:46:13.3539299-05:00:Thread#0:T:waiting for enter Text in Element: CountryDropdown
+2020-12-01T17:46:14.5166594-05:00:2020-12-01T17:46:14.5161902-05:00:Thread#0:T:waiting for enter Text in Element: CountryDropdown
+2020-12-01T17:46:15.5526286-05:00:2020-12-01T17:46:15.5502678-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("country") (2.2s)
+2020-12-01T17:46:15.5636660-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-01T17:46:15.5642546-05:00:Thread#:Scheduler: testitem #11 from normal test queue 
+2020-12-01T17:46:15.5645011-05:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2020-12-01T17:46:15.5648949-05:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-01T17:46:15.5649236-05:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2020-12-01T17:46:15.5649323-05:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2020-12-01T17:46:15.5649771-05:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2020-12-01T17:46:15.5652161-05:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2020-12-01T17:46:15.5654474-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-01T17:46:15.5816419-05:00:Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 30.0022331 seconds
+2020-12-01T17:46:15.5838672-05:00:Thread#0: Test #11/0 is started on thread #0
+2020-12-01T17:46:15.5897946-05:00:2020-12-01T17:46:15.5888710-05:00:Thread#0:B:Given that the test user has access as 'global-admin'
+2020-12-01T17:46:15.6047909-05:00:2020-12-01T17:46:15.6042598-05:00:Assembly resolving Gherkin, Version=6.0.0.0, Culture=neutral, PublicKeyToken=86496cfa5b4a5851
+2020-12-01T17:46:15.6058182-05:00:2020-12-01T17:46:15.6054114-05:00:[AssemblyCache] Trying to resolve 'Gherkin' from .deps.json file
+2020-12-01T17:46:15.6068766-05:00:2020-12-01T17:46:15.6065193-05:00:[AssemblyCache] Resolved 'Gherkin' to 'C:\Users\maucasas\.nuget\packages\gherkin\6.0.0\lib\netstandard2.0\Gherkin.dll'
+2020-12-01T17:46:15.6456545-05:00:2020-12-01T17:46:15.6449675-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-12-01T17:46:15.6467966-05:00:2020-12-01T17:46:15.6464262-05:00:Thread#0:T:        [Given(@"that the test user has access as '(.*)'")]
+2020-12-01T17:46:15.6475387-05:00:2020-12-01T17:46:15.6472165-05:00:Thread#0:T:        public void GivenThatTheTestUserHasAccessAs(string p0)
+2020-12-01T17:46:15.6482738-05:00:2020-12-01T17:46:15.6479263-05:00:Thread#0:T:        {
+2020-12-01T17:46:15.6491056-05:00:2020-12-01T17:46:15.6487068-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-12-01T17:46:15.6498410-05:00:2020-12-01T17:46:15.6495107-05:00:Thread#0:T:        }
+2020-12-01T17:46:24.0108320-05:00:2020-12-01T17:46:24.0098823-05:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2020-12-01T17:46:24.0120996-05:00:2020-12-01T17:46:24.0114608-05:00:Thread#0:T:using System;
+2020-12-01T17:46:24.0131371-05:00:2020-12-01T17:46:24.0126845-05:00:Thread#0:T:using TechTalk.SpecFlow;
+2020-12-01T17:46:24.0139620-05:00:2020-12-01T17:46:24.0135938-05:00:Thread#0:T:namespace MyNamespace
+2020-12-01T17:46:24.0147437-05:00:2020-12-01T17:46:24.0143888-05:00:Thread#0:T:{
+2020-12-01T17:46:24.0155465-05:00:2020-12-01T17:46:24.0151983-05:00:Thread#0:T:    [Binding]
+2020-12-01T17:46:24.0163731-05:00:2020-12-01T17:46:24.0159777-05:00:Thread#0:T:    public class StepDefinitions
+2020-12-01T17:46:24.0172198-05:00:2020-12-01T17:46:24.0168492-05:00:Thread#0:T:    {
+2020-12-01T17:46:24.0181122-05:00:2020-12-01T17:46:24.0176780-05:00:Thread#0:T:        private readonly ScenarioContext _scenarioContext;
+2020-12-01T17:46:24.0189499-05:00:2020-12-01T17:46:24.0185790-05:00:Thread#0:T:        public StepDefinitions(ScenarioContext scenarioContext)
+2020-12-01T17:46:24.0197974-05:00:2020-12-01T17:46:24.0194279-05:00:Thread#0:T:        {
+2020-12-01T17:46:24.0206862-05:00:2020-12-01T17:46:24.0202758-05:00:Thread#0:T:            _scenarioContext = scenarioContext;
+2020-12-01T17:46:24.0217071-05:00:2020-12-01T17:46:24.0212810-05:00:Thread#0:T:        }
+2020-12-01T17:46:24.0228750-05:00:2020-12-01T17:46:24.0223251-05:00:Thread#0:T:        [Given(@"that the test user has access as '(.*)'")]
+2020-12-01T17:46:24.0238999-05:00:2020-12-01T17:46:24.0235229-05:00:Thread#0:T:        public void GivenThatTheTestUserHasAccessAs(string p0)
+2020-12-01T17:46:24.0246591-05:00:2020-12-01T17:46:24.0243250-05:00:Thread#0:T:        {
+2020-12-01T17:46:24.0253965-05:00:2020-12-01T17:46:24.0250723-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-12-01T17:46:24.0261290-05:00:2020-12-01T17:46:24.0258084-05:00:Thread#0:T:        }
+2020-12-01T17:46:24.0268711-05:00:2020-12-01T17:46:24.0265505-05:00:Thread#0:T:    }
+2020-12-01T17:46:24.0276227-05:00:2020-12-01T17:46:24.0272571-05:00:Thread#0:T:}
+2020-12-01T17:46:24.0294501-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-01T17:46:24.0295910-05:00:Thread#:Scheduler: testitem #12 from normal test queue 
+2020-12-01T17:46:24.0295972-05:00:Thread#0:Scheduler: considering testitem #12 for thread 0
+2020-12-01T17:46:24.0296367-05:00:Thread#0:TestItem#12:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-01T17:46:24.0296420-05:00:Thread#0:TestItem#12:runsOnOneOtherThreadSpecific:False
+2020-12-01T17:46:24.0296433-05:00:Thread#0:TestItem#12:runsOnOneOtherThreadUnspecific:False
+2020-12-01T17:46:24.0296446-05:00:Thread#0:Scheduler: using testitem #12 for thread 0
+2020-12-01T17:46:24.0296830-05:00:Thread#0:Scheduler: Test #12 is scheduled for thread
+2020-12-01T17:46:24.0297166-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-01T17:46:24.0324930-05:00:Thread#0: Test #11/0 is finished on thread #0 as Pending within 8.4483425 seconds
+2020-12-01T17:46:24.0335558-05:00:Thread#0: Test #12/0 is started on thread #0
+2020-12-01T17:46:24.0358593-05:00:2020-12-01T17:46:24.0353493-05:00:Thread#0:B:Given that the test user has access as 'regular-user'
+2020-12-01T17:46:24.0389204-05:00:2020-12-01T17:46:24.0383453-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-12-01T17:46:24.0397647-05:00:2020-12-01T17:46:24.0393752-05:00:Thread#0:T:        [Given(@"that the test user has access as '(.*)'")]
+2020-12-01T17:46:24.0405981-05:00:2020-12-01T17:46:24.0401795-05:00:Thread#0:T:        public void GivenThatTheTestUserHasAccessAs(string p0)
+2020-12-01T17:46:24.0413803-05:00:2020-12-01T17:46:24.0410471-05:00:Thread#0:T:        {
+2020-12-01T17:46:24.0421428-05:00:2020-12-01T17:46:24.0418008-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-12-01T17:46:24.0429139-05:00:2020-12-01T17:46:24.0425572-05:00:Thread#0:T:        }
+2020-12-01T17:46:24.9610009-05:00:2020-12-01T17:46:24.9601506-05:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2020-12-01T17:46:24.9628059-05:00:2020-12-01T17:46:24.9620339-05:00:Thread#0:T:using System;
+2020-12-01T17:46:24.9643243-05:00:2020-12-01T17:46:24.9635764-05:00:Thread#0:T:using TechTalk.SpecFlow;
+2020-12-01T17:46:24.9658774-05:00:2020-12-01T17:46:24.9650942-05:00:Thread#0:T:namespace MyNamespace
+2020-12-01T17:46:24.9672714-05:00:2020-12-01T17:46:24.9667058-05:00:Thread#0:T:{
+2020-12-01T17:46:24.9684192-05:00:2020-12-01T17:46:24.9678848-05:00:Thread#0:T:    [Binding]
+2020-12-01T17:46:24.9697795-05:00:2020-12-01T17:46:24.9691385-05:00:Thread#0:T:    public class StepDefinitions
+2020-12-01T17:46:24.9713656-05:00:2020-12-01T17:46:24.9708007-05:00:Thread#0:T:    {
+2020-12-01T17:46:24.9727222-05:00:2020-12-01T17:46:24.9721100-05:00:Thread#0:T:        private readonly ScenarioContext _scenarioContext;
+2020-12-01T17:46:24.9740803-05:00:2020-12-01T17:46:24.9735136-05:00:Thread#0:T:        public StepDefinitions(ScenarioContext scenarioContext)
+2020-12-01T17:46:24.9754254-05:00:2020-12-01T17:46:24.9749272-05:00:Thread#0:T:        {
+2020-12-01T17:46:24.9764306-05:00:2020-12-01T17:46:24.9759966-05:00:Thread#0:T:            _scenarioContext = scenarioContext;
+2020-12-01T17:46:24.9774111-05:00:2020-12-01T17:46:24.9770462-05:00:Thread#0:T:        }
+2020-12-01T17:46:24.9783191-05:00:2020-12-01T17:46:24.9779125-05:00:Thread#0:T:        [Given(@"that the test user has access as '(.*)'")]
+2020-12-01T17:46:24.9793098-05:00:2020-12-01T17:46:24.9788295-05:00:Thread#0:T:        public void GivenThatTheTestUserHasAccessAs(string p0)
+2020-12-01T17:46:24.9801827-05:00:2020-12-01T17:46:24.9797868-05:00:Thread#0:T:        {
+2020-12-01T17:46:24.9810868-05:00:2020-12-01T17:46:24.9806810-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-12-01T17:46:24.9819486-05:00:2020-12-01T17:46:24.9815724-05:00:Thread#0:T:        }
+2020-12-01T17:46:24.9828089-05:00:2020-12-01T17:46:24.9824241-05:00:Thread#0:T:    }
+2020-12-01T17:46:24.9837149-05:00:2020-12-01T17:46:24.9833226-05:00:Thread#0:T:}
+2020-12-01T17:46:24.9856529-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-01T17:46:24.9857805-05:00:Thread#:Scheduler: testitem #14 from normal test queue 
+2020-12-01T17:46:24.9858407-05:00:Thread#0:Scheduler: considering testitem #14 for thread 0
+2020-12-01T17:46:24.9859359-05:00:Thread#0:TestItem#14:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-01T17:46:24.9859420-05:00:Thread#0:TestItem#14:runsOnOneOtherThreadSpecific:False
+2020-12-01T17:46:24.9859435-05:00:Thread#0:TestItem#14:runsOnOneOtherThreadUnspecific:False
+2020-12-01T17:46:24.9859495-05:00:Thread#0:Scheduler: using testitem #14 for thread 0
+2020-12-01T17:46:24.9859969-05:00:Thread#0:Scheduler: Test #14 is scheduled for thread
+2020-12-01T17:46:24.9860347-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-01T17:46:24.9888288-05:00:Thread#0: Test #12/0 is finished on thread #0 as Pending within 0.9550158 seconds
+2020-12-01T17:46:24.9901874-05:00:Thread#0: Test #14/0 is started on thread #0
+2020-12-01T17:46:24.9968222-05:00:2020-12-01T17:46:24.9960361-05:00:Thread#0:B:Given that the test user is as global-admin level user
+2020-12-01T17:46:24.9988451-05:00:2020-12-01T17:46:24.9981838-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheTestUserIsAsLevelUser("global-admin") (0.0s)
+2020-12-01T17:46:25.0001761-05:00:2020-12-01T17:46:24.9995947-05:00:Thread#0:B:And that the test user has logged into CCF
+2020-12-01T17:46:34.8671827-05:00:2020-12-01T17:46:34.8662483-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheUserHasLoggedIntoCCF() (9.9s)
+2020-12-01T17:46:34.8689044-05:00:2020-12-01T17:46:34.8682339-05:00:Thread#0:B:When the SideNav has loaded
+2020-12-01T17:46:42.5605295-05:00:2020-12-01T17:46:42.5593761-05:00:Thread#0:T:done: SideNavStepDefinition.WhenTheSideNavHasLoaded() (7.7s)
+2020-12-01T17:46:42.5640608-05:00:2020-12-01T17:46:42.5632947-05:00:Thread#0:B:Then the Creative LinkText should be visible
+2020-12-01T17:46:42.5900910-05:00:2020-12-01T17:46:42.5892620-05:00:Thread#0:T:done: SideNavStepDefinition.ThenTheCreativeLinkTextShouldBeVisible() (0.0s)
+2020-12-01T17:46:42.5914957-05:00:2020-12-01T17:46:42.5909101-05:00:Thread#0:B:And the Campaign LinkText should be <campaignStatus>
+2020-12-01T17:46:42.6825055-05:00:2020-12-01T17:46:42.6816658-05:00:Thread#0:T:done: SideNavStepDefinition.ThenTheCampaingLinkTextShouldBe("<campaignStatus>") (0.1s)
+2020-12-01T17:46:42.6920877-05:00:2020-12-01T17:46:42.6838777-05:00:Thread#0:B:And the Config LinkText should be visible
+2020-12-01T17:46:42.7261908-05:00:2020-12-01T17:46:42.7252101-05:00:Thread#0:T:done: SideNavStepDefinition.ThenTheConfigLinkTextShouldBe("visible") (0.0s)
+2020-12-01T17:46:42.7315465-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-01T17:46:42.7316207-05:00:Thread#:Scheduler: testitem #15 from normal test queue 
+2020-12-01T17:46:42.7316310-05:00:Thread#0:Scheduler: considering testitem #15 for thread 0
+2020-12-01T17:46:42.7316991-05:00:Thread#0:TestItem#15:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-01T17:46:42.7317069-05:00:Thread#0:TestItem#15:runsOnOneOtherThreadSpecific:False
+2020-12-01T17:46:42.7317165-05:00:Thread#0:TestItem#15:runsOnOneOtherThreadUnspecific:False
+2020-12-01T17:46:42.7317330-05:00:Thread#0:Scheduler: using testitem #15 for thread 0
+2020-12-01T17:46:42.7317834-05:00:Thread#0:Scheduler: Test #15 is scheduled for thread
+2020-12-01T17:46:42.7318581-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-01T17:46:42.7429291-05:00:Thread#0: Test #14/0 is finished on thread #0 as Succeeded within 17.7524774 seconds
+2020-12-01T17:46:42.7452353-05:00:Thread#0: Test #15/0 is started on thread #0
+2020-12-01T17:46:42.7502520-05:00:2020-12-01T17:46:42.7480216-05:00:Thread#0:B:Given that the test user is as regular-user level user
+2020-12-01T17:46:42.7522589-05:00:2020-12-01T17:46:42.7514233-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheTestUserIsAsLevelUser("regular-user") (0.0s)
+2020-12-01T17:46:42.7537378-05:00:2020-12-01T17:46:42.7530878-05:00:Thread#0:B:And that the test user has logged into CCF
+2020-12-01T17:46:56.5455496-05:00:2020-12-01T17:46:56.5445647-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheUserHasLoggedIntoCCF() (13.8s)
+2020-12-01T17:46:56.5473760-05:00:2020-12-01T17:46:56.5465057-05:00:Thread#0:B:When the SideNav has loaded
+2020-12-01T17:47:02.2022266-05:00:2020-12-01T17:47:02.2013267-05:00:Thread#0:T:done: SideNavStepDefinition.WhenTheSideNavHasLoaded() (5.7s)
+2020-12-01T17:47:02.2039036-05:00:2020-12-01T17:47:02.2032248-05:00:Thread#0:B:Then the Creative LinkText should be visible
+2020-12-01T17:47:02.2327296-05:00:2020-12-01T17:47:02.2318819-05:00:Thread#0:T:done: SideNavStepDefinition.ThenTheCreativeLinkTextShouldBeVisible() (0.0s)
+2020-12-01T17:47:02.2345609-05:00:2020-12-01T17:47:02.2337746-05:00:Thread#0:B:And the Campaign LinkText should be <campaignStatus>
+2020-12-01T17:47:02.3640316-05:00:2020-12-01T17:47:02.3629412-05:00:Thread#0:T:done: SideNavStepDefinition.ThenTheCampaingLinkTextShouldBe("<campaignStatus>") (0.1s)
+2020-12-01T17:47:02.3657360-05:00:2020-12-01T17:47:02.3651959-05:00:Thread#0:B:And the Config LinkText should be visible
+2020-12-01T17:47:02.3861777-05:00:2020-12-01T17:47:02.3851682-05:00:Thread#0:T:done: SideNavStepDefinition.ThenTheConfigLinkTextShouldBe("visible") (0.0s)
+2020-12-01T17:47:02.3898733-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-01T17:47:02.3901356-05:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-01T17:47:02.3901475-05:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-12-01T17:47:02.3901522-05:00:Thread#0:Scheduler: No more tests for thread
+2020-12-01T17:47:02.3949365-05:00:Thread#0: Test #15/0 is finished on thread #0 as Succeeded within 19.6493693 seconds
+2020-12-01T17:47:02.4071153-05:00:2020-12-01T17:47:02.4065607-05:00:Got Deinitialize Signal
+2020-12-01T17:47:02.4208398-05:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-12-01T17:47:02.4208399-05:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-12-01T17:47:02.4294218-05:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-12-01T17:47:02.4326277-05:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-01T17:47:02.4326486-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2020-12-01T17:47:02.4326534-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2020-12-01T17:47:02.4326612-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-12-01T17:47:02.4326625-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-12-01T17:47:02.4326981-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-12-01T17:47:02.4327256-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-12-01T17:47:02.4327329-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-12-01T17:47:02.4328071-05:00:Tfm: netcoreapp3.1
+2020-12-01T17:47:02.4328115-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-12-01T17:47:02.4328126-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-12-01T17:47:02.4328585-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-12-01T17:47:02.4328881-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-12-01T17:47:02.4442117-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2020-12-01T17:47:02.4442230-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2020-12-01T17:47:02.4442747-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2020-12-01T17:47:02.4443024-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2020-12-01T17:47:02.4444739-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2020-12-01T17:47:02.4444795-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2020-12-01T17:47:02.4445167-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2020-12-01T17:47:02.4445445-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2020-12-01T17:47:02.4446801-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2020-12-01T17:47:02.4446850-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2020-12-01T17:47:02.4447542-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2020-12-01T17:47:02.4447797-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2020-12-01T17:47:02.4460021-05:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-01T17:47:02.4564486-05:00:Thread#-1:Scheduler: get next test for thread -1
+2020-12-01T17:47:02.4564892-05:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-01T17:47:02.4564937-05:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-12-01T17:47:02.4592107-05:00;Thread#14;Info;test run finished
+2020-12-01T17:47:02.4595798-05:00;Thread#14;Info;publishing test results
+2020-12-01T17:47:02.4598217-05:00;Thread#14;Info;Not publishing results.
+2020-12-01T17:47:02.4600905-05:00;Thread#14;Info;test results published
+2020-12-01T17:47:02.4602592-05:00;Thread#14;Info;generating reports
+2020-12-01T17:47:02.5771383-05:00;Thread#14;Info;Starting external report generation process
+2020-12-01T17:47:07.1022697-05:00;Thread#14;Info;Successfully generated reports.
+2020-12-01T17:47:07.1044995-05:00;Thread#14;Info;Successfully generated reports
+2020-12-01T17:47:07.1150376-05:00:Total: 8
+2020-12-01T17:47:07.1166516-05:00:Succeeded: 6
+2020-12-01T17:47:07.1169528-05:00:Ignored: 0
+2020-12-01T17:47:07.1172037-05:00:Pending: 2
+2020-12-01T17:47:07.1172080-05:00:Skipped: 0
+2020-12-01T17:47:07.1174521-05:00:Failed: 0
+2020-12-01T17:47:07.1239208-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-12-01T17:47:07.1240250-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\TestResults\Unnamed project__2020-12-01T174415.html'
+========== End of log file ==========

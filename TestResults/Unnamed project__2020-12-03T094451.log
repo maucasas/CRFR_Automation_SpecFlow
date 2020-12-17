@@ -1,0 +1,140 @@
+﻿2020-12-03T09:44:51.3984673-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-03T09:44:51.3985934-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework netcore31 in x64 mode execution started
+2020-12-03T09:44:51.3985974-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-03T09:44:51.4005804-05:00;VSTestExecutionThread;Info;Current UserName: 'maucasas', MachineName: 'WKWCO7519602'
+2020-12-03T09:44:51.4340859-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll
+2020-12-03T09:44:51.4345244-05:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\TestResults" (default)
+2020-12-03T09:44:51.4346741-05:00;VSTestExecutionThread;Info;Profile: 
+2020-12-03T09:44:51.5126409-05:00;VSTestExecutionThread;Info;Log file path: C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\TestResults\Unnamed project__2020-12-03T094451.log
+2020-12-03T09:44:51.5239214-05:00;Thread#14;Info;Checking activation
+2020-12-03T09:44:51.6689911-05:00;Thread#14;Info;Activated.
+2020-12-03T09:44:51.6693087-05:00;Thread#14;Info;Activation check completed
+2020-12-03T09:44:51.6693951-05:00;Thread#14;Info;Starting test run
+2020-12-03T09:44:52.4611309-05:00;Thread#14;Info;Discovering target: Default
+2020-12-03T09:44:52.4615016-05:00;Thread#14;Info;Discovering tests from assembly: C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll
+2020-12-03T09:44:52.6231040-05:00;Thread#14;Info;Discovered tests from assembly: C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll
+2020-12-03T09:44:52.6245200-05:00:Test Suite Dump
+2020-12-03T09:44:52.6262096-05:00:#0: Unnamed project/ - 
+2020-12-03T09:44:52.6262226-05:00:#1: Default - 
+2020-12-03T09:44:52.6262243-05:00:#2: CRFR_Automation_SpecFlow - 
+2020-12-03T09:44:52.6262256-05:00:#10: CreativesGrid - 
+2020-12-03T09:44:52.6274574-05:00:#11: Click on edit creative button - TestAssembly:CRFR_Automation_SpecFlow/Feature:CreativesGrid/Scenario:Click+on+edit+creative+button
+2020-12-03T09:44:52.6275114-05:00:End: Test Suite Dump
+2020-12-03T09:44:52.6424222-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-03T09:44:52.6440963-05:00:Thread#:Scheduler: testitem #11 from normal test queue 
+2020-12-03T09:44:52.6441571-05:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2020-12-03T09:44:52.6470805-05:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-03T09:44:52.6470880-05:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2020-12-03T09:44:52.6470896-05:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2020-12-03T09:44:52.6470915-05:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2020-12-03T09:44:52.6477121-05:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2020-12-03T09:44:52.6489806-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-03T09:44:52.6512983-05:00:Thread #0: creating new test thread executor for CRFR_Automation_SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-03T09:44:52.6536985-05:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-12-03T09:44:52.6538670-05:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-12-03T09:44:52.6620535-05:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-12-03T09:44:52.6637923-05:00:starting Out Of Process Executor
+2020-12-03T09:44:52.6718219-05:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-03T09:44:52.6745410-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-12-03T09:44:52.6745495-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-12-03T09:44:52.6755443-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-12-03T09:44:52.6759076-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-12-03T09:44:52.6759781-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-12-03T09:44:52.6760090-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-12-03T09:44:52.6762226-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-12-03T09:44:52.6767725-05:00:Tfm: netcoreapp3.1
+2020-12-03T09:44:52.6767864-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-12-03T09:44:52.6767880-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-12-03T09:44:52.6768514-05:00:[AssemblyCache] Found file 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2020-12-03T09:44:52.6828730-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2020-12-03T09:44:52.6836493-05:00:Starting callback TCP Rpc server
+2020-12-03T09:44:52.7056139-05:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-12-03T09:44:52.7057025-05:00:Started callback TCP Rpc server on port 32768
+2020-12-03T09:44:52.7057048-05:00:Starting logger TCP Rpc server
+2020-12-03T09:44:52.7085624-05:00:Asynchronously starting background TCP Rpc Server on port 32769
+2020-12-03T09:44:52.7086086-05:00:Started logger TCP Rpc server on port 32769
+2020-12-03T09:44:52.8185364-05:00;Thread#14;Info;Executor full path resolved: C:\Program Files\dotnet\dotnet.exe
+2020-12-03T09:44:52.8213004-05:00;Thread#14;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2020-12-03T09:44:53.9637701-05:00;Thread#14;Info;Successfully started SpecFlow+ Runner executor process
+2020-12-03T09:44:53.9693592-05:00:Out of Process Executor 18044 started
+2020-12-03T09:44:53.9693729-05:00:Waiting for endpoint
+2020-12-03T09:44:57.4353492-05:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-03T09:44:57.4354044-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-12-03T09:44:57.4354094-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-12-03T09:44:57.4354163-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-12-03T09:44:57.4354177-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-12-03T09:44:57.4354661-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-12-03T09:44:57.4354955-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-12-03T09:44:57.4355018-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-12-03T09:44:57.4355822-05:00:Tfm: netcoreapp3.1
+2020-12-03T09:44:57.4355934-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-12-03T09:44:57.4355947-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-12-03T09:44:57.4356695-05:00:[AssemblyCache] Found file 'C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2020-12-03T09:44:57.4436308-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2020-12-03T09:44:57.7591426-05:00:Remote executor port received: 32770
+2020-12-03T09:44:57.7594850-05:00:Creating executor TCP client on port 32770
+2020-12-03T09:44:57.7598709-05:00:Created executor TCP client on port 32770
+2020-12-03T09:44:57.7598756-05:00:Connecting to remote executor TCP server
+2020-12-03T09:44:57.7610278-05:00:Connected remote executor TCP server
+2020-12-03T09:44:57.7614444-05:00:trying to connect to Out of Process Executor the 1 attempt
+2020-12-03T09:44:57.7614501-05:00:Connection to Out of Process Executor established in the 1 attempt
+2020-12-03T09:44:57.9572999-05:00:2020-12-03T09:44:57.9552546-05:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll on test thread #0
+2020-12-03T09:44:57.9637303-05:00:Endpoint 18044 started
+2020-12-03T09:44:57.9857982-05:00:2020-12-03T09:44:57.9847166-05:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-12-03T09:44:58.1178198-05:00:2020-12-03T09:44:58.1167714-05:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-12-03T09:44:58.1236958-05:00:2020-12-03T09:44:58.1225315-05:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-12-03T09:44:58.1345348-05:00:2020-12-03T09:44:58.1338061-05:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\maucasas\.nuget\packages\specflow\3.4.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-12-03T09:44:58.2843226-05:00:2020-12-03T09:44:58.2828610-05:00:Thread#0:T:-> Loading plugin C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2020-12-03T09:44:58.2943407-05:00:2020-12-03T09:44:58.2930665-05:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-12-03T09:44:58.2976553-05:00:2020-12-03T09:44:58.2963006-05:00:Assembly resolving LivingDoc.Dtos, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+2020-12-03T09:44:58.2998247-05:00:2020-12-03T09:44:58.2987249-05:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2020-12-03T09:44:58.3018673-05:00:2020-12-03T09:44:58.3010363-05:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\maucasas\.nuget\packages\specflow.plus.livingdocplugin\3.4.211\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2020-12-03T09:44:58.3116094-05:00:2020-12-03T09:44:58.3102536-05:00:Thread#0:T:-> Loading plugin C:\Users\maucasas\Documents\Automation\CRFR_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-03T09:44:58.3203751-05:00:2020-12-03T09:44:58.3193023-05:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-12-03T09:44:58.3257227-05:00:2020-12-03T09:44:58.3248332-05:00:Thread#0:T:-> Using default config
+2020-12-03T09:44:58.3380265-05:00:2020-12-03T09:44:58.3371002-05:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-12-03T09:44:58.3396256-05:00:2020-12-03T09:44:58.3390172-05:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-12-03T09:44:58.3406360-05:00:2020-12-03T09:44:58.3402629-05:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\maucasas\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-12-03T09:44:58.3470185-05:00:2020-12-03T09:44:58.3463215-05:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-12-03T09:44:58.3480260-05:00:2020-12-03T09:44:58.3475952-05:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-12-03T09:44:58.3491282-05:00:2020-12-03T09:44:58.3487217-05:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\maucasas\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-12-03T09:44:58.3744360-05:00:2020-12-03T09:44:58.3738855-05:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-03T09:44:58.3751940-05:00:2020-12-03T09:44:58.3748717-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-12-03T09:44:58.3762866-05:00:2020-12-03T09:44:58.3758507-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\maucasas\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-12-03T09:44:58.4256008-05:00:2020-12-03T09:44:58.4238946-05:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2020-12-03T09:44:58.4376378-05:00:2020-12-03T09:44:58.4267401-05:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2020-12-03T09:44:58.4397795-05:00:2020-12-03T09:44:58.4388850-05:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\maucasas\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2020-12-03T09:44:58.7794031-05:00:Thread#0: Test #11/0 is started on thread #0
+2020-12-03T09:44:58.8078534-05:00:2020-12-03T09:44:58.8070582-05:00:Thread#0:B:Given that the test user is as global-admin level user
+2020-12-03T09:44:58.8258548-05:00:2020-12-03T09:44:58.8252200-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheTestUserIsAsLevelUser("global-admin") (0.0s)
+2020-12-03T09:44:58.8281423-05:00:2020-12-03T09:44:58.8277005-05:00:Thread#0:B:And that the test user has logged into CCF
+2020-12-03T09:44:58.8308200-05:00:2020-12-03T09:44:58.8300795-05:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2020-12-03T09:44:58.8323034-05:00:2020-12-03T09:44:58.8314977-05:00:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2020-12-03T09:44:58.8342825-05:00:2020-12-03T09:44:58.8332564-05:00:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\maucasas\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll'
+2020-12-03T09:45:10.0962129-05:00:2020-12-03T09:45:10.0944200-05:00:Thread#0:T:done: GenericStepDefinition.GivenThatTheUserHasLoggedIntoCCF() (11.3s)
+2020-12-03T09:45:10.0995650-05:00:2020-12-03T09:45:10.0982766-05:00:Thread#0:B:And that the agencyDropdown is enabled
+2020-12-03T09:45:10.1065117-05:00:2020-12-03T09:45:10.1049260-05:00:Assembly resolving Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-03T09:45:10.1091336-05:00:2020-12-03T09:45:10.1077241-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.QualityTools.UnitTestFramework' from .deps.json file
+2020-12-03T09:45:10.1118688-05:00:2020-12-03T09:45:10.1107847-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.QualityTools.UnitTestFramework' to 'C:\Users\maucasas\.nuget\packages\microsoft_visualstudio_qualitytools_unittestframework.stw\12.0.21005.1\lib\net40\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'
+2020-12-03T09:45:15.4950129-05:00:2020-12-03T09:45:15.4929907-05:00:Thread#0:T:done: ClientDataStepsDefinitions.ThenThatTheAgencyDropdownIs("enabled") (5.4s)
+2020-12-03T09:45:15.5134800-05:00:2020-12-03T09:45:15.5120902-05:00:Thread#0:B:And the test user selects a agency
+2020-12-03T09:45:15.6851539-05:00:2020-12-03T09:45:15.6699634-05:00:Thread#0:T:waiting for enter Text in Element: AgencyDropdown
+2020-12-03T09:45:17.1404424-05:00:2020-12-03T09:45:17.1392011-05:00:Thread#0:T:waiting for enter Text in Element: AgencyDropdown
+2020-12-03T09:45:18.1934223-05:00:2020-12-03T09:45:18.1882467-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("agency") (2.6s)
+2020-12-03T09:45:18.2041954-05:00:2020-12-03T09:45:18.1996141-05:00:Thread#0:B:And the test user selects a client
+2020-12-03T09:45:18.2272063-05:00:2020-12-03T09:45:18.2262044-05:00:Thread#0:T:waiting for enter Text in Element: ClientDropdown
+2020-12-03T09:45:19.5340116-05:00:2020-12-03T09:45:19.5322122-05:00:Thread#0:T:waiting for enter Text in Element: ClientDropdown
+2020-12-03T09:45:20.5776758-05:00:2020-12-03T09:45:20.5760993-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("client") (2.4s)
+2020-12-03T09:45:20.5803995-05:00:2020-12-03T09:45:20.5794992-05:00:Thread#0:B:And the test user selects a region
+2020-12-03T09:45:20.5985553-05:00:2020-12-03T09:45:20.5974936-05:00:Thread#0:T:waiting for enter Text in Element: RegionDropdown
+2020-12-03T09:45:21.8552545-05:00:2020-12-03T09:45:21.8540302-05:00:Thread#0:T:waiting for enter Text in Element: RegionDropdown
+2020-12-03T09:45:22.9243622-05:00:2020-12-03T09:45:22.9230615-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("region") (2.3s)
+2020-12-03T09:45:22.9264316-05:00:2020-12-03T09:45:22.9257261-05:00:Thread#0:B:And the test user selects a country
+2020-12-03T09:45:22.9492454-05:00:2020-12-03T09:45:22.9486498-05:00:Thread#0:T:waiting for enter Text in Element: CountryDropdown
+2020-12-03T09:45:24.0660321-05:00:2020-12-03T09:45:24.0653286-05:00:Thread#0:T:waiting for enter Text in Element: CountryDropdown
+2020-12-03T09:45:25.1009679-05:00:2020-12-03T09:45:25.1001095-05:00:Thread#0:T:done: ClientDataStepsDefinitions.WhenTheTestUserSelectsA("country") (2.2s)
+2020-12-03T09:45:25.1022320-05:00:2020-12-03T09:45:25.1017307-05:00:Thread#0:B:And the test user clicks on campaign row
+2020-12-03T09:45:25.1814961-05:00:2020-12-03T09:45:25.1804252-05:00:Thread#0:T:done: CampaignsGridStepDefinition.WhenTheTestUserClicksOnCampaignRow() (0.1s)
+2020-12-03T09:45:25.1845637-05:00:2020-12-03T09:45:25.1834307-05:00:Thread#0:B:And the creative grid is visible
+2020-12-03T09:45:35.0775523-05:00:2020-12-03T09:45:35.0761854-05:00:Thread#0:T:done: CreativesGridStepDefinition.GivenTheCreativeGridIsVisible() (9.9s)
+2020-12-03T09:45:35.0801147-05:00:2020-12-03T09:45:35.0794242-05:00:Thread#0:B:When the test user clicks on creative edit button

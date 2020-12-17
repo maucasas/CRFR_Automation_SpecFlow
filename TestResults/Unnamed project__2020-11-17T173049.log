@@ -1,0 +1,268 @@
+﻿2020-11-17T17:30:49.0350790-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-11-17T17:30:49.0351979-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework netcore31 in x64 mode execution started
+2020-11-17T17:30:49.0351999-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-11-17T17:30:49.0366507-05:00;VSTestExecutionThread;Info;Current UserName: 'maucasas', MachineName: 'WKWCO7519602'
+2020-11-17T17:30:49.0589583-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll
+2020-11-17T17:30:49.0592359-05:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\TestResults" (default)
+2020-11-17T17:30:49.0594117-05:00;VSTestExecutionThread;Info;Profile: 
+2020-11-17T17:30:49.0873875-05:00;VSTestExecutionThread;Info;Log file path: C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\TestResults\Unnamed project__2020-11-17T173049.log
+2020-11-17T17:30:49.0906237-05:00;Thread#12;Info;Checking activation
+2020-11-17T17:30:49.1495679-05:00;Thread#12;Info;Activated.
+2020-11-17T17:30:49.1498219-05:00;Thread#12;Info;Activation check completed
+2020-11-17T17:30:49.1499889-05:00;Thread#12;Info;Starting test run
+2020-11-17T17:30:49.2083945-05:00;Thread#12;Info;Discovering target: Default
+2020-11-17T17:30:49.2086814-05:00;Thread#12;Info;Discovering tests from assembly: C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll
+2020-11-17T17:30:49.2621120-05:00;Thread#12;Info;Discovered tests from assembly: C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll
+2020-11-17T17:30:49.2629994-05:00:Test Suite Dump
+2020-11-17T17:30:49.2641350-05:00:#0: Unnamed project/ - 
+2020-11-17T17:30:49.2641469-05:00:#1: Default - 
+2020-11-17T17:30:49.2641485-05:00:#2: CRFR_Automation_SpecFlow - 
+2020-11-17T17:30:49.2641495-05:00:#4: LoginCRFRFeature - 
+2020-11-17T17:30:49.2649218-05:00:#5: Login in Creative Framework - TestAssembly:CRFR_Automation_SpecFlow/Feature:LoginCRFRFeature/Scenario:Login+in+Creative+Framework
+2020-11-17T17:30:49.2649555-05:00:End: Test Suite Dump
+2020-11-17T17:30:49.2753905-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-11-17T17:30:49.2766375-05:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2020-11-17T17:30:49.2766834-05:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-11-17T17:30:49.2789444-05:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-11-17T17:30:49.2789510-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-11-17T17:30:49.2789522-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-11-17T17:30:49.2789539-05:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-11-17T17:30:49.2794728-05:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-11-17T17:30:49.2804598-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-11-17T17:30:49.2821004-05:00:Thread #0: creating new test thread executor for CRFR_Automation_SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-11-17T17:30:49.2838460-05:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-11-17T17:30:49.2840059-05:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-11-17T17:30:49.2854457-05:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-11-17T17:30:49.2866411-05:00:starting Out Of Process Executor
+2020-11-17T17:30:49.2877546-05:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-11-17T17:30:49.2895042-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-11-17T17:30:49.2895104-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-11-17T17:30:49.2902776-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-11-17T17:30:49.2905338-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-11-17T17:30:49.2905839-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-11-17T17:30:49.2906049-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-11-17T17:30:49.2907482-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-11-17T17:30:49.2911075-05:00:Tfm: netcoreapp3.1
+2020-11-17T17:30:49.2911136-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-11-17T17:30:49.2911148-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-11-17T17:30:49.2911650-05:00:[AssemblyCache] Found file 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2020-11-17T17:30:49.2914600-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2020-11-17T17:30:49.2920487-05:00:Starting callback TCP Rpc server
+2020-11-17T17:30:49.3031595-05:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-11-17T17:30:49.3032052-05:00:Started callback TCP Rpc server on port 32768
+2020-11-17T17:30:49.3032066-05:00:Starting logger TCP Rpc server
+2020-11-17T17:30:49.3046691-05:00:Asynchronously starting background TCP Rpc Server on port 32769
+2020-11-17T17:30:49.3046989-05:00:Started logger TCP Rpc server on port 32769
+2020-11-17T17:30:49.3601242-05:00:Executing test executor at 'dotnet' 'exec "C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 37292 --uniqueId "2020-11-17T173049" --outputFolder "C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-11-17T17:30:49.3703046-05:00:Executor with PID 3980 has been started successfully.
+2020-11-17T17:30:49.3726490-05:00:Out of Process Executor 3980 started
+2020-11-17T17:30:49.3726587-05:00:Waiting for endpoint
+2020-11-17T17:30:51.1934671-05:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-11-17T17:30:51.1935241-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-11-17T17:30:51.1935284-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-11-17T17:30:51.1935364-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-11-17T17:30:51.1935384-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-11-17T17:30:51.1935793-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-11-17T17:30:51.1936069-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-11-17T17:30:51.1936144-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-11-17T17:30:51.1936877-05:00:Tfm: netcoreapp3.1
+2020-11-17T17:30:51.1937003-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-11-17T17:30:51.1937027-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-11-17T17:30:51.1937527-05:00:[AssemblyCache] Found file 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2020-11-17T17:30:51.1942389-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2020-11-17T17:30:51.3427788-05:00:Remote executor port received: 32770
+2020-11-17T17:30:51.3430134-05:00:Creating executor TCP client on port 32770
+2020-11-17T17:30:51.3432988-05:00:Created executor TCP client on port 32770
+2020-11-17T17:30:51.3433029-05:00:Connecting to remote executor TCP server
+2020-11-17T17:30:51.3442022-05:00:Connected remote executor TCP server
+2020-11-17T17:30:51.3443732-05:00:trying to connect to Out of Process Executor the 1 attempt
+2020-11-17T17:30:51.3443784-05:00:Connection to Out of Process Executor established in the 1 attempt
+2020-11-17T17:30:51.4417704-05:00:2020-11-17T17:30:51.4405185-05:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\CRFR_Automation_SpecFlow.dll on test thread #0
+2020-11-17T17:30:51.4453446-05:00:Endpoint 3980 started
+2020-11-17T17:30:51.4599769-05:00:2020-11-17T17:30:51.4593742-05:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-11-17T17:30:51.5434433-05:00:2020-11-17T17:30:51.5429513-05:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-11-17T17:30:51.5458674-05:00:2020-11-17T17:30:51.5454329-05:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-11-17T17:30:51.5481625-05:00:2020-11-17T17:30:51.5477488-05:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\maucasas\.nuget\packages\specflow\3.4.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-11-17T17:30:51.6217961-05:00:2020-11-17T17:30:51.6212058-05:00:Thread#0:T:-> Loading plugin C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2020-11-17T17:30:51.6231474-05:00:2020-11-17T17:30:51.6228212-05:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-11-17T17:30:51.6241857-05:00:2020-11-17T17:30:51.6238210-05:00:Assembly resolving LivingDoc.Dtos, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+2020-11-17T17:30:51.6248845-05:00:2020-11-17T17:30:51.6244966-05:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2020-11-17T17:30:51.6266944-05:00:2020-11-17T17:30:51.6263626-05:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\maucasas\.nuget\packages\specflow.plus.livingdocplugin\3.4.211\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2020-11-17T17:30:51.6291171-05:00:2020-11-17T17:30:51.6287641-05:00:Thread#0:T:-> Loading plugin C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-11-17T17:30:51.6299449-05:00:2020-11-17T17:30:51.6296258-05:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-11-17T17:30:51.6334184-05:00:2020-11-17T17:30:51.6329840-05:00:Thread#0:T:-> Using default config
+2020-11-17T17:30:51.6410506-05:00:2020-11-17T17:30:51.6406601-05:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-11-17T17:30:51.6416192-05:00:2020-11-17T17:30:51.6413135-05:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-11-17T17:30:51.6422554-05:00:2020-11-17T17:30:51.6419410-05:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\maucasas\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-11-17T17:30:51.6433382-05:00:2020-11-17T17:30:51.6430340-05:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-11-17T17:30:51.6438357-05:00:2020-11-17T17:30:51.6435567-05:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-11-17T17:30:51.6443518-05:00:2020-11-17T17:30:51.6441276-05:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\maucasas\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-11-17T17:30:51.6510822-05:00:2020-11-17T17:30:51.6506625-05:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-11-17T17:30:51.6516597-05:00:2020-11-17T17:30:51.6513370-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-11-17T17:30:51.6523308-05:00:2020-11-17T17:30:51.6520239-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\maucasas\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-11-17T17:30:51.6742267-05:00:2020-11-17T17:30:51.6738020-05:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2020-11-17T17:30:51.6748054-05:00:2020-11-17T17:30:51.6744699-05:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2020-11-17T17:30:51.6754642-05:00:2020-11-17T17:30:51.6751617-05:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\maucasas\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2020-11-17T17:30:51.8109357-05:00:Thread#0: Test #5/0 is started on thread #0
+2020-11-17T17:30:51.8293493-05:00:2020-11-17T17:30:51.8288664-05:00:Thread#0:B:Given that the test user enter login as 'global-admin'
+2020-11-17T17:30:51.8436783-05:00:2020-11-17T17:30:51.8430987-05:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2020-11-17T17:30:51.8442417-05:00:2020-11-17T17:30:51.8438475-05:00:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2020-11-17T17:30:51.8450279-05:00:2020-11-17T17:30:51.8446911-05:00:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\maucasas\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll'
+2020-11-17T17:30:51.8677487-05:00:2020-11-17T17:30:51.8672502-05:00:Thread#0:T:error: The geckodriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at https://github.com/mozilla/geckodriver/releases.
+2020-11-17T17:30:51.8694496-05:00:2020-11-17T17:30:51.8691710-05:00:Thread#0:B:And enter '<password>'
+2020-11-17T17:30:51.8827834-05:00:2020-11-17T17:30:51.8823056-05:00:Assembly resolving Gherkin, Version=6.0.0.0, Culture=neutral, PublicKeyToken=86496cfa5b4a5851
+2020-11-17T17:30:51.8835033-05:00:2020-11-17T17:30:51.8830976-05:00:[AssemblyCache] Trying to resolve 'Gherkin' from .deps.json file
+2020-11-17T17:30:51.8841565-05:00:2020-11-17T17:30:51.8838924-05:00:[AssemblyCache] Resolved 'Gherkin' to 'C:\Users\maucasas\.nuget\packages\gherkin\6.0.0\lib\netstandard2.0\Gherkin.dll'
+2020-11-17T17:30:51.9116996-05:00:2020-11-17T17:30:51.9112855-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-11-17T17:30:51.9123112-05:00:2020-11-17T17:30:51.9119802-05:00:Thread#0:T:        [Given(@"enter '(.*)'")]
+2020-11-17T17:30:51.9128198-05:00:2020-11-17T17:30:51.9125396-05:00:Thread#0:T:        public void GivenEnter(string password)
+2020-11-17T17:30:51.9132046-05:00:2020-11-17T17:30:51.9130108-05:00:Thread#0:T:        {
+2020-11-17T17:30:51.9135723-05:00:2020-11-17T17:30:51.9133643-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-11-17T17:30:51.9139699-05:00:2020-11-17T17:30:51.9137130-05:00:Thread#0:T:        }
+2020-11-17T17:30:51.9147867-05:00:2020-11-17T17:30:51.9146083-05:00:Thread#0:B:When clicks on lionbutton
+2020-11-17T17:30:51.9173424-05:00:2020-11-17T17:30:51.9170369-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-11-17T17:30:51.9177897-05:00:2020-11-17T17:30:51.9175600-05:00:Thread#0:T:        [When(@"clicks on lionbutton")]
+2020-11-17T17:30:51.9182616-05:00:2020-11-17T17:30:51.9180041-05:00:Thread#0:T:        public void WhenClicksOnLionbutton()
+2020-11-17T17:30:51.9186725-05:00:2020-11-17T17:30:51.9184589-05:00:Thread#0:T:        {
+2020-11-17T17:30:51.9190818-05:00:2020-11-17T17:30:51.9187986-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-11-17T17:30:51.9193845-05:00:2020-11-17T17:30:51.9192154-05:00:Thread#0:T:        }
+2020-11-17T17:30:51.9199480-05:00:2020-11-17T17:30:51.9197450-05:00:Thread#0:B:Then is taken in landingPage
+2020-11-17T17:30:51.9222992-05:00:2020-11-17T17:30:51.9220349-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-11-17T17:30:51.9226523-05:00:2020-11-17T17:30:51.9224638-05:00:Thread#0:T:        [Then(@"is taken in landingPage")]
+2020-11-17T17:30:51.9230568-05:00:2020-11-17T17:30:51.9227772-05:00:Thread#0:T:        public void ThenIsTakenInLandingPage()
+2020-11-17T17:30:51.9233399-05:00:2020-11-17T17:30:51.9231838-05:00:Thread#0:T:        {
+2020-11-17T17:30:51.9236771-05:00:2020-11-17T17:30:51.9234570-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-11-17T17:30:51.9239920-05:00:2020-11-17T17:30:51.9237896-05:00:Thread#0:T:        }
+2020-11-17T17:30:51.9331336-05:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2020-11-17T17:30:51.9345843-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-11-17T17:30:51.9346184-05:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2020-11-17T17:30:51.9346220-05:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-11-17T17:30:51.9346604-05:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-11-17T17:30:51.9346634-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-11-17T17:30:51.9346643-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-11-17T17:30:51.9346652-05:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-11-17T17:30:51.9346823-05:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-11-17T17:30:51.9347012-05:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-11-17T17:30:51.9665347-05:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 0.1548288 seconds
+2020-11-17T17:30:51.9684577-05:00:Thread#0: Test #5/1 is started on thread #0
+2020-11-17T17:30:51.9692191-05:00:2020-11-17T17:30:51.9689611-05:00:Thread#0:B:Given that the test user enter login as 'global-admin'
+2020-11-17T17:30:51.9706393-05:00:2020-11-17T17:30:51.9703392-05:00:Thread#0:T:error: The geckodriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at https://github.com/mozilla/geckodriver/releases.
+2020-11-17T17:30:51.9710214-05:00:2020-11-17T17:30:51.9708423-05:00:Thread#0:B:And enter '<password>'
+2020-11-17T17:30:51.9785059-05:00:2020-11-17T17:30:51.9780433-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-11-17T17:30:51.9789815-05:00:2020-11-17T17:30:51.9787421-05:00:Thread#0:T:        [Given(@"enter '(.*)'")]
+2020-11-17T17:30:51.9793956-05:00:2020-11-17T17:30:51.9791324-05:00:Thread#0:T:        public void GivenEnter(string password0)
+2020-11-17T17:30:51.9798093-05:00:2020-11-17T17:30:51.9795310-05:00:Thread#0:T:        {
+2020-11-17T17:30:51.9801546-05:00:2020-11-17T17:30:51.9799380-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-11-17T17:30:51.9804727-05:00:2020-11-17T17:30:51.9802737-05:00:Thread#0:T:        }
+2020-11-17T17:30:51.9809333-05:00:2020-11-17T17:30:51.9807156-05:00:Thread#0:B:When clicks on lionbutton
+2020-11-17T17:30:51.9831164-05:00:2020-11-17T17:30:51.9827605-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-11-17T17:30:51.9864463-05:00:2020-11-17T17:30:51.9861398-05:00:Thread#0:T:        [When(@"clicks on lionbutton")]
+2020-11-17T17:30:51.9869724-05:00:2020-11-17T17:30:51.9866672-05:00:Thread#0:T:        public void WhenClicksOnLionbutton()
+2020-11-17T17:30:51.9875030-05:00:2020-11-17T17:30:51.9872233-05:00:Thread#0:T:        {
+2020-11-17T17:30:51.9878814-05:00:2020-11-17T17:30:51.9876835-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-11-17T17:30:51.9883045-05:00:2020-11-17T17:30:51.9881047-05:00:Thread#0:T:        }
+2020-11-17T17:30:51.9887636-05:00:2020-11-17T17:30:51.9885085-05:00:Thread#0:B:Then is taken in landingPage
+2020-11-17T17:30:51.9907528-05:00:2020-11-17T17:30:51.9905149-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-11-17T17:30:51.9910503-05:00:2020-11-17T17:30:51.9908555-05:00:Thread#0:T:        [Then(@"is taken in landingPage")]
+2020-11-17T17:30:51.9913476-05:00:2020-11-17T17:30:51.9911662-05:00:Thread#0:T:        public void ThenIsTakenInLandingPage()
+2020-11-17T17:30:51.9916345-05:00:2020-11-17T17:30:51.9914768-05:00:Thread#0:T:        {
+2020-11-17T17:30:51.9919309-05:00:2020-11-17T17:30:51.9917389-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-11-17T17:30:51.9921978-05:00:2020-11-17T17:30:51.9920457-05:00:Thread#0:T:        }
+2020-11-17T17:30:51.9935941-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-11-17T17:30:51.9936112-05:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2020-11-17T17:30:51.9936131-05:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-11-17T17:30:51.9936376-05:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-11-17T17:30:51.9936394-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-11-17T17:30:51.9936403-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-11-17T17:30:51.9936413-05:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-11-17T17:30:51.9936473-05:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-11-17T17:30:51.9936508-05:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-11-17T17:30:51.9962153-05:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 0.0277128 seconds
+2020-11-17T17:30:51.9967673-05:00:Thread#0: Test #5/2 is started on thread #0
+2020-11-17T17:30:51.9976382-05:00:2020-11-17T17:30:51.9972682-05:00:Thread#0:B:Given that the test user enter login as 'global-admin'
+2020-11-17T17:30:51.9993022-05:00:2020-11-17T17:30:51.9988427-05:00:Thread#0:T:error: The geckodriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at https://github.com/mozilla/geckodriver/releases.
+2020-11-17T17:30:51.9998103-05:00:2020-11-17T17:30:51.9995423-05:00:Thread#0:B:And enter '<password>'
+2020-11-17T17:30:52.0019982-05:00:2020-11-17T17:30:52.0017038-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-11-17T17:30:52.0024985-05:00:2020-11-17T17:30:52.0022328-05:00:Thread#0:T:        [Given(@"enter '(.*)'")]
+2020-11-17T17:30:52.0029633-05:00:2020-11-17T17:30:52.0027128-05:00:Thread#0:T:        public void GivenEnter(string password0)
+2020-11-17T17:30:52.0034782-05:00:2020-11-17T17:30:52.0032050-05:00:Thread#0:T:        {
+2020-11-17T17:30:52.0039389-05:00:2020-11-17T17:30:52.0036960-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-11-17T17:30:52.0042257-05:00:2020-11-17T17:30:52.0040482-05:00:Thread#0:T:        }
+2020-11-17T17:30:52.0046231-05:00:2020-11-17T17:30:52.0044057-05:00:Thread#0:B:When clicks on lionbutton
+2020-11-17T17:30:52.0067448-05:00:2020-11-17T17:30:52.0064748-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-11-17T17:30:52.0070667-05:00:2020-11-17T17:30:52.0068750-05:00:Thread#0:T:        [When(@"clicks on lionbutton")]
+2020-11-17T17:30:52.0074729-05:00:2020-11-17T17:30:52.0072282-05:00:Thread#0:T:        public void WhenClicksOnLionbutton()
+2020-11-17T17:30:52.0078437-05:00:2020-11-17T17:30:52.0076294-05:00:Thread#0:T:        {
+2020-11-17T17:30:52.0082068-05:00:2020-11-17T17:30:52.0079988-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-11-17T17:30:52.0084780-05:00:2020-11-17T17:30:52.0083072-05:00:Thread#0:T:        }
+2020-11-17T17:30:52.0088677-05:00:2020-11-17T17:30:52.0086457-05:00:Thread#0:B:Then is taken in landingPage
+2020-11-17T17:30:52.0108629-05:00:2020-11-17T17:30:52.0106083-05:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2020-11-17T17:30:52.0111707-05:00:2020-11-17T17:30:52.0109744-05:00:Thread#0:T:        [Then(@"is taken in landingPage")]
+2020-11-17T17:30:52.0114700-05:00:2020-11-17T17:30:52.0112756-05:00:Thread#0:T:        public void ThenIsTakenInLandingPage()
+2020-11-17T17:30:52.0118279-05:00:2020-11-17T17:30:52.0116040-05:00:Thread#0:T:        {
+2020-11-17T17:30:52.0121706-05:00:2020-11-17T17:30:52.0119628-05:00:Thread#0:T:            _scenarioContext.Pending();
+2020-11-17T17:30:52.0124465-05:00:2020-11-17T17:30:52.0122887-05:00:Thread#0:T:        }
+2020-11-17T17:30:52.0136772-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-11-17T17:30:52.0136886-05:00:Thread#:Scheduler: at the end of normal test queue
+2020-11-17T17:30:52.0136900-05:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-11-17T17:30:52.0136912-05:00:Thread#0:Scheduler: No more tests for thread
+2020-11-17T17:30:52.0174246-05:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 0.0206346 seconds
+2020-11-17T17:30:52.0227370-05:00:2020-11-17T17:30:52.0223934-05:00:Got Deinitialize Signal
+2020-11-17T17:30:52.0252062-05:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2020-11-17T17:30:52.0258472-05:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-11-17T17:30:52.0270562-05:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-11-17T17:30:52.0281594-05:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2020-11-17T17:30:52.0281685-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2020-11-17T17:30:52.0281699-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2020-11-17T17:30:52.0281730-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-11-17T17:30:52.0281742-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-11-17T17:30:52.0281915-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-11-17T17:30:52.0282092-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1'
+2020-11-17T17:30:52.0282110-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-11-17T17:30:52.0282261-05:00:Tfm: netcoreapp3.1
+2020-11-17T17:30:52.0282281-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-11-17T17:30:52.0282288-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-11-17T17:30:52.0282521-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-11-17T17:30:52.0282707-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-11-17T17:30:52.0345698-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2020-11-17T17:30:52.0345822-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2020-11-17T17:30:52.0346307-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2020-11-17T17:30:52.0346501-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2020-11-17T17:30:52.0347498-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2020-11-17T17:30:52.0347534-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2020-11-17T17:30:52.0347775-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2020-11-17T17:30:52.0347962-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2020-11-17T17:30:52.0348771-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2020-11-17T17:30:52.0348805-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2020-11-17T17:30:52.0349058-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2020-11-17T17:30:52.0349234-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2020-11-17T17:30:52.0354995-05:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2020-11-17T17:30:52.0410422-05:00:Thread#-1:Scheduler: get next test for thread -1
+2020-11-17T17:30:52.0410529-05:00:Thread#:Scheduler: at the end of normal test queue
+2020-11-17T17:30:52.0410543-05:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-11-17T17:30:52.0446738-05:00;Thread#12;Info;test run finished
+2020-11-17T17:30:52.0448934-05:00;Thread#12;Info;publishing test results
+2020-11-17T17:30:52.0450328-05:00;Thread#12;Info;Not publishing results.
+2020-11-17T17:30:52.0451243-05:00;Thread#12;Info;test results published
+2020-11-17T17:30:52.0451815-05:00;Thread#12;Info;generating reports
+2020-11-17T17:30:52.1182113-05:00;Thread#12;Info;Starting external report generation process
+2020-11-17T17:30:56.1730893-05:00;Thread#12;Info;Successfully generated reports.
+2020-11-17T17:30:56.1748870-05:00;Thread#12;Info;Successfully generated reports
+2020-11-17T17:30:56.1803538-05:00:Total: 1 (test executions: 3)
+2020-11-17T17:30:56.1820220-05:00:Succeeded: 0
+2020-11-17T17:30:56.1823182-05:00:Ignored: 0
+2020-11-17T17:30:56.1825807-05:00:Pending: 0
+2020-11-17T17:30:56.1825864-05:00:Skipped: 0
+2020-11-17T17:30:56.1828430-05:00:Failed: 1
+2020-11-17T17:30:56.1884251-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-11-17T17:30:56.1885193-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\maucasas\Documents\Automation\CF_Automation_SpecFlow\TestResults\Unnamed project__2020-11-17T173049.html'
+========== End of log file ==========
