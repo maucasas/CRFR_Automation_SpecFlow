@@ -22,8 +22,7 @@ namespace CRFR_Automation_SpecFlow.TestData
         {
 
             ClientUserObj.UserName = "ZOAppDevTest4-tst";
-            //AdminUserObj.UserName = "ZOAppDevTest1-tst";
-            AdminUserObj.UserName = "maucasas";
+            AdminUserObj.UserName = "ZOAppDevTest1-tst";
             switch (testEnvironment.ToLower())
             {
                 case "qa":
