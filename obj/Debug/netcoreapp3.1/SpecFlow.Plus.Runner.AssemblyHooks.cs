@@ -2,7 +2,7 @@
 
 using global::TechTalk.SpecFlow;
 
-public class CRFR_Automation_SpecFlow_SpecFlowPlusRunnerAssemblyHooks
+public class MDM_Automation_SpecFlow_SpecFlowPlusRunnerAssemblyHooks
 {
     [global::TechTalk.SpecRun.AssemblyInitialize]
     public static void AssemblyInitialize()

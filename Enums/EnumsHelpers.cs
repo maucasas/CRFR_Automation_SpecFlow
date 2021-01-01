@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
-namespace CRFR_Automation_SpecFlow.Enums
+namespace MDM_Automation_SpecFlow.Enums
 {
     public enum SelectorType
     {

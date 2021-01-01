@@ -1,11 +1,11 @@
-﻿using CRFR_Automation_SpecFlow.BaseClasses;
-using CRFR_Automation_SpecFlow.PageObjects;
+﻿using MDM_Automation_SpecFlow.BaseClasses;
+using MDM_Automation_SpecFlow.PageObjects;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CRFR_Automation_SpecFlow.Modules
+namespace MDM_Automation_SpecFlow.Modules
 {
     public class TopNavigationModule
     {

@@ -1,12 +1,12 @@
-﻿using CRFR_Automation_SpecFlow.BaseClasses;
-using CRFR_Automation_SpecFlow.Enums;
+﻿using MDM_Automation_SpecFlow.BaseClasses;
+using MDM_Automation_SpecFlow.Enums;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 
-namespace CRFR_Automation_SpecFlow.PageObjects
+namespace MDM_Automation_SpecFlow.PageObjects
 {
     public class ClientDataPage
     {

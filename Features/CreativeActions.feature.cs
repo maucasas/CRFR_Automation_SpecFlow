@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace CRFR_Automation_SpecFlow.Features
+namespace MDM_Automation_SpecFlow.Features
 {
     using TechTalk.SpecFlow;
     using System;

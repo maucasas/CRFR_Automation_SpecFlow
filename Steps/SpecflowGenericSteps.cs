@@ -1,6 +1,6 @@
-﻿using CRFR_Automation_SpecFlow.BaseClasses;
-using CRFR_Automation_SpecFlow.Modules;
-using CRFR_Automation_SpecFlow.TestData;
+﻿using MDM_Automation_SpecFlow.BaseClasses;
+using MDM_Automation_SpecFlow.Modules;
+using MDM_Automation_SpecFlow.TestData;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using System;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Text;
 using TechTalk.SpecFlow;
 
-namespace CRFR_Automation_SpecFlow.Steps
+namespace MDM_Automation_SpecFlow.Steps
 {
     [Binding]
     public class SpecflowGenericSteps

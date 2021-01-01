@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CRFR_Automation_SpecFlow.TestData
+namespace MDM_Automation_SpecFlow.TestData
 {
     public class User
     {

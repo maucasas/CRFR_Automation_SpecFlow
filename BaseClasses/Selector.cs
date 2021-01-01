@@ -1,10 +1,10 @@
-﻿using CRFR_Automation_SpecFlow.Enums;
+﻿using MDM_Automation_SpecFlow.Enums;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CRFR_Automation_SpecFlow.BaseClasses
+namespace MDM_Automation_SpecFlow.BaseClasses
 {
     public class Selector
     {

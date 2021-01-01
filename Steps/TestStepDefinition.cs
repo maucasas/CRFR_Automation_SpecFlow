@@ -1,11 +1,11 @@
-﻿using CRFR_Automation_SpecFlow.Modules;
+﻿using MDM_Automation_SpecFlow.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TechTalk.SpecFlow;
 
-namespace CRFR_Automation_SpecFlow.Steps
+namespace MDM_Automation_SpecFlow.Steps
 {
     [Binding]
     public sealed class TestStepDefinition

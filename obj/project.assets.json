@@ -7130,11 +7130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maucasas\\Documents\\Automation\\CRFR_Automation_SpecFlow\\CRFR_Automation_SpecFlow.csproj",
-      "projectName": "CRFR_Automation_SpecFlow",
-      "projectPath": "C:\\Users\\maucasas\\Documents\\Automation\\CRFR_Automation_SpecFlow\\CRFR_Automation_SpecFlow.csproj",
+      "projectUniqueName": "C:\\Users\\maucasas\\Documents\\Automation\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj",
+      "projectName": "MDM_Automation_SpecFlow",
+      "projectPath": "C:\\Users\\maucasas\\Documents\\Automation\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj",
       "packagesPath": "C:\\Users\\maucasas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maucasas\\Documents\\Automation\\CRFR_Automation_SpecFlow\\obj\\",
+      "outputPath": "C:\\Users\\maucasas\\Documents\\Automation\\MDM_Automation_SpecFlow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maucasas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7215,7 +7215,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -1,4 +1,4 @@
-﻿using CRFR_Automation_SpecFlow.Enums;
+﻿using MDM_Automation_SpecFlow.Enums;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CRFR_Automation_SpecFlow.BaseClasses
+namespace MDM_Automation_SpecFlow.BaseClasses
 {
     public class WebElementActions
     {

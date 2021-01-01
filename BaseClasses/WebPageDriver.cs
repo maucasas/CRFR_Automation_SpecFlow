@@ -1,4 +1,4 @@
-﻿using CRFR_Automation_SpecFlow.Enums;
+﻿using MDM_Automation_SpecFlow.Enums;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
@@ -8,7 +8,7 @@ using System;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 
-namespace CRFR_Automation_SpecFlow.BaseClasses
+namespace MDM_Automation_SpecFlow.BaseClasses
 {
     public class WebPageDriver
     {
