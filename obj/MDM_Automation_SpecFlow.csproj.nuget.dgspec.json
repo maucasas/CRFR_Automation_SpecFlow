@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maucasas\\Documents\\Automation\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj": {}
+    "C:\\Users\\Mauricio Casas\\Documents\\Github-Azure\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maucasas\\Documents\\Automation\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj": {
+    "C:\\Users\\Mauricio Casas\\Documents\\Github-Azure\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maucasas\\Documents\\Automation\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj",
+        "projectUniqueName": "C:\\Users\\Mauricio Casas\\Documents\\Github-Azure\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj",
         "projectName": "MDM_Automation_SpecFlow",
-        "projectPath": "C:\\Users\\maucasas\\Documents\\Automation\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj",
-        "packagesPath": "C:\\Users\\maucasas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maucasas\\Documents\\Automation\\MDM_Automation_SpecFlow\\obj\\",
+        "projectPath": "C:\\Users\\Mauricio Casas\\Documents\\Github-Azure\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj",
+        "packagesPath": "C:\\Users\\Mauricio Casas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mauricio Casas\\Documents\\Github-Azure\\MDM_Automation_SpecFlow\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maucasas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mauricio Casas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

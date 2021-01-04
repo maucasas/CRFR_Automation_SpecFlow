@@ -5,7 +5,7 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\maucasas\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Mauricio Casas\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.0</NuGetToolVersion>
   </PropertyGroup>
@@ -24,8 +24,8 @@
     <Import Project="$(NuGetPackageRoot)specrun.specflow.3-4-0\3.4.19\build\SpecRun.SpecFlow.3-4-0.props" Condition="Exists('$(NuGetPackageRoot)specrun.specflow.3-4-0\3.4.19\build\SpecRun.SpecFlow.3-4-0.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\maucasas\.nuget\packages\newtonsoft.json\10.0.3</PkgNewtonsoft_Json>
-    <PkgSpecRun_Runner Condition=" '$(PkgSpecRun_Runner)' == '' ">C:\Users\maucasas\.nuget\packages\specrun.runner\3.4.19</PkgSpecRun_Runner>
-    <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">C:\Users\maucasas\.nuget\packages\bodi\1.4.1</PkgBoDi>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Mauricio Casas\.nuget\packages\newtonsoft.json\10.0.3</PkgNewtonsoft_Json>
+    <PkgSpecRun_Runner Condition=" '$(PkgSpecRun_Runner)' == '' ">C:\Users\Mauricio Casas\.nuget\packages\specrun.runner\3.4.19</PkgSpecRun_Runner>
+    <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">C:\Users\Mauricio Casas\.nuget\packages\bodi\1.4.1</PkgBoDi>
   </PropertyGroup>
 </Project>
