@@ -29,20 +29,31 @@ namespace MDM_Automation_SpecFlow.Modules
             webObject.LoadWebPage(url);
         }
 
-        public void ThatTheTestAccessCRFRAs(User user)
+        public void ThatTheTestAccessToMDMAs(User user)
         {
             LoginPage loginPageObject = new LoginPage(CurrentDriver);
-            //WebElement loginStart = loginPageObject.SearchAuthLionLionButton();
-            //if(loginStart.AllMatchingResults.Count == 1)
-            //{
-            //    loginPageObject.ClickOnNavigateAuthLionLionButton();
-            //    loginPageObject.EnterTextInLionLionUserNameInputTextBox(user.UserName);
-            //    loginPageObject.EnterTextInLionLionPassWordInputTextBox(user.Password);
-            //    loginPageObject.ClickOnAuthLionLoginStartButton();
-            //}
-            loginPageObject.EnterTextInUserNameInputBox(user.UserName);
-            loginPageObject.EnterTextInPasswordInputBox(user.Password);
-            loginPageObject.ClickOnLionLionButton();
+            var AuthlionloginElement =loginPageObject.SearchNavigateAuthLionLionButton();
+
+            if (AuthlionloginElement.AllMatchingResults.Count > 0)
+            {
+                loginPageObject.ClickOnNavigateAuthLionLionButton();
+                loginPageObject.EnterTextInLionLoginUserNameInputTextBox(user.UserName);
+                loginPageObject.EnterTextInLionLoginPassWordInputTextBox(user.Password);
+                loginPageObject.ClickOnAuthLionLoginStartButton();
+            }
+            else
+            {
+                try
+                {
+                    loginPageObject.EnterTextInUserNameInputBox(user.UserName);
+                    loginPageObject.EnterTextInPasswordInputBox(user.Password);
+                    loginPageObject.ClickOnLoginButton();
+                }
+                catch(ElementNotVisibleException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
         }
     }
 }

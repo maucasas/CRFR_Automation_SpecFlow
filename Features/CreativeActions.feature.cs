@@ -75,40 +75,22 @@ namespace MDM_Automation_SpecFlow.Features
 #line 3
 #line hidden
 #line 4
- testRunner.Given("that the test user is as global-admin level user", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("that the test user has \'metadata\' permission user", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 5
- testRunner.And("that the test user has logged into CCF", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 6
- testRunner.And("that the test user has selected \'Starcom\' agency", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 7
- testRunner.And("that the test user has selected \'Samsung Group\' client", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 8
- testRunner.And("that the test user has selected \'Europe,the Middle East, and Africa\' region", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 9
- testRunner.And("that the test user has selected \'Hungary\' country", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 10
- testRunner.And("that the test user has selected a campaign", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 11
- testRunner.And("that the test user has selected new creative button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("that the test user has logged into MDM", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add new creative with the  free-forms, dropdowns list, datepickers in campaign", new string[] {
-                "mytag"}, SourceLine=13)]
+                "mytag"}, SourceLine=7)]
         public virtual void AddNewCreativeWithTheFree_FormsDropdownsListDatepickersInCampaign()
         {
             string[] tagsOfScenario = new string[] {
                     "mytag"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add new creative with the  free-forms, dropdowns list, datepickers in campaign", null, tagsOfScenario, argumentsOfScenario);
-#line 14
+#line 8
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -131,19 +113,19 @@ this.ScenarioInitialize(scenarioInfo);
 #line 3
 this.FeatureBackground();
 #line hidden
-#line 15
- testRunner.And("that the test user has selects the dropdowns options", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 9
+ testRunner.And("that the test user has selected a model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 16
+#line 10
  testRunner.And("that the test user has populate freeforms text", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 17
+#line 11
  testRunner.And("that the test user has selected datepicker", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 18
+#line 12
  testRunner.When("the test user clicks on save button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 19
+#line 13
  testRunner.Then("the creative taxonomy string is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

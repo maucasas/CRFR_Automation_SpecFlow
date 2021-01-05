@@ -8,8 +8,9 @@ namespace MDM_Automation_SpecFlow.TestData
     public class TestVariables
     {
         public string BaseWebUrl;
-        public User GAUser;
-        public User ClientUser;
+        public User MetadataUser;
+        public User WriteUser;
+        public User ReadOnlyUser;
         public bool IsWebBrowserOpen;
         public string TestEnviroment;
         public User MainUser;

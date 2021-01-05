@@ -6,54 +6,53 @@ namespace MDM_Automation_SpecFlow.TestData
 {
     public class EnvironmentData
     {
-        public string CreativeUrl { get; private set; }
-        public string TaxonomyUrl { get; private set; }
-        public string CampaignUrl { get; private set; }
+        public string MDMUrl { get; private set; }
 
-        public User ClientUserObj = new User();
+        public User MetadataUserObj = new User();
        
-        public User AdminUserObj = new User();
-
-        public Dictionary<string, int> CrRoles = new Dictionary<string, int>();
+        public User ReadOnlyUserObj = new User();
+        
+        public User WriteUserObj = new User();
+       
+        public Dictionary<string, int> MDMPermissions = new Dictionary<string, int>();
 
 
 
         public EnvironmentData(string testEnvironment)
         {
 
-            ClientUserObj.UserName = "ZOAppDevTest4-tst";
-            AdminUserObj.UserName = "ZOAppDevTest1-tst";
+            ReadOnlyUserObj.UserName = "ZOAppDevTest1-tst";
+            WriteUserObj.UserName = "ZOAppDevTest2-tst";
+            MetadataUserObj.UserName = "ZOAppDevTest3-tst";
+
             switch (testEnvironment.ToLower())
             {
                 case "qa":
-                    TaxonomyUrl = "https://qa-taxonomy.publicismedia.com/";
-                    //API_URL = "https://qa-admin-api.publicismedia.com/";
-                    CampaignUrl = "https://qa-campaign.publicismedia.com/";
-                    CreativeUrl = "https://qa-creativeframework.publicismedia.com/";
-                    CrRoles.Add("Regular User", 190);
-                    CrRoles.Add("Global Admin", 191);
-                    ClientUserObj.Password = Environment.GetEnvironmentVariable("QA_CLIENT_PASSWORD");
-                    AdminUserObj.Password = Environment.GetEnvironmentVariable("QA_GA_PASSWORD");
+                    MDMUrl = "https://qa-masterdata.publicismedia.com/";
+                    MDMPermissions.Add("ReadOnly", 0);
+                    MDMPermissions.Add("Write", 1);
+                    MDMPermissions.Add("Metadata", 2);
+                    ReadOnlyUserObj.Password = Environment.GetEnvironmentVariable("QA_MDM_READ_USER_PASSWORD");
+                    WriteUserObj.Password = Environment.GetEnvironmentVariable("QA_MDM_WRITE_USER_PASSWORD");
+                    MetadataUserObj.Password = Environment.GetEnvironmentVariable("QA_MDM_METADATA_USER_PASSWORD");
                     break;
                 case "pp":
-                    TaxonomyUrl = "https://preprod-taxonomy.publicismedia.com/";
-                    //API_URL = "https://preprod-admin-api.publicismedia.com/";
-                    CampaignUrl = "https://preprod-campaign.publicismedia.com/";
-                    CreativeUrl = "http://preprod-creativeframework.publicismedia.com/";
-                    CrRoles.Add("Regular User", 0);
-                    CrRoles.Add("Global Admin", 0);
-                    ClientUserObj.Password = Environment.GetEnvironmentVariable("PP_CLIENT_PASSWORD");
-                    AdminUserObj.Password = Environment.GetEnvironmentVariable("PP_GA_PASSWORD");
+                    MDMUrl = "http://masterdata.publicismedia.com/";
+                    MDMPermissions.Add("ReadOnly", 0);
+                    MDMPermissions.Add("Write", 1);
+                    MDMPermissions.Add("Metadata", 2);
+                    ReadOnlyUserObj.Password = Environment.GetEnvironmentVariable("PP_MDM_READ_USER_PASSWORD");
+                    WriteUserObj.Password = Environment.GetEnvironmentVariable("PP_MDM_WRITE_USER_PASSWORD");
+                    MetadataUserObj.Password = Environment.GetEnvironmentVariable("PP_MDM_METADATA_USER_PASSWORD");
                     break;
                 case "dev":
-                    TaxonomyUrl = "https://dev-taxonomy.cloud.vivaki.com/";
-                    //API_URL = "https://dev-admin-api.cloud.vivaki.com/";
-                    CampaignUrl = "https://dev-campaign.cloud.vivaki.com";
-                    CreativeUrl = "https://dev-creativeframework.cloud.vivaki.com/";
-                    CrRoles.Add("Regular User", 0);
-                    CrRoles.Add("Global Admin", 0);
-                    ClientUserObj.Password = Environment.GetEnvironmentVariable("DEV_CLIENT_PASSWORD");
-                    AdminUserObj.Password = Environment.GetEnvironmentVariable("DEV_GA_PASSWORD");
+                    MDMUrl = "https://dev-masterdata.cloud.vivaki.com/";
+                    MDMPermissions.Add("ReadOnly", 0);
+                    MDMPermissions.Add("Write", 1);
+                    MDMPermissions.Add("Metadata", 2);
+                    ReadOnlyUserObj.Password = Environment.GetEnvironmentVariable("DEV_MDM_READ_USER_PASSWORD");
+                    WriteUserObj.Password = Environment.GetEnvironmentVariable("DEV_MDM_WRITE_USER_PASSWORD");
+                    MetadataUserObj.Password = Environment.GetEnvironmentVariable("DEV_MDM_METADATA_USER_PASSWORD");
                     break;
             }
         }

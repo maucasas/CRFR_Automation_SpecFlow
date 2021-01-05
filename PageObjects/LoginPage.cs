@@ -11,19 +11,19 @@ namespace MDM_Automation_SpecFlow.PageObjects
     {
         public IWebDriver Driver;
 
-        public Selector CreativeUserNameInputTextBox = new Selector("UserNameTextBoxInput", "EmailAddress", SelectorType.Id);
-        
-        public Selector CreativePasswordTextBoxInput = new Selector("PasswordTextBoxInput", "Password", SelectorType.Id);
+        public Selector ContainerFormLogin = new Selector("ContainerFormLogin", "div.lion__container.login", SelectorType.Css);
 
-        public Selector CreativeLoginButton = new Selector("LoginButton","Login", SelectorType.Id);
+        public Selector UserNameInputTextBox = new Selector("UserNameInputTextBox", "div.form__group.login>input#UserName", SelectorType.Css);
 
-        private Selector CreativeResetPasswordLink = new Selector("ResetPasswordLink","lnkGenerateChangePasswordEmail", SelectorType.Id);
+        public Selector PasswordInputTextBox = new Selector("UserNameInputTextBox", "div.form__group.login>input#Password", SelectorType.Css);
+
+        public Selector LoginButton = new Selector("LoginButton", "form.login>button[type='submit']", SelectorType.Css);
 
         private Selector NavigateAuthLionLionButton = new Selector("LionLionButton", "//div[@id='bySelection']/div[@class='idp' and @tabindex='2']", SelectorType.XPath);
         
-        private Selector LionLionUserNameInputTextBox = new Selector("LionLionUserNameInputTextBox", "input#userNameInput", SelectorType.Css);
+        private Selector AuthLionLoginUserNameInputTextBox = new Selector("LionLionUserNameInputTextBox", "input#userNameInput", SelectorType.Css);
         
-        private Selector LionLionPassWordInputTextBox = new Selector("LionLionPassWordInputTextBox", "input#passwordInput", SelectorType.Css);
+        private Selector AuthLionLoginPassWordInputTextBox = new Selector("LionLionPassWordInputTextBox", "input#passwordInput", SelectorType.Css);
         
         private Selector AuthLionLoginStartButton = new Selector("AuthLionLoginStartButton", "span#submitButton", SelectorType.Css);
 
@@ -34,67 +34,72 @@ namespace MDM_Automation_SpecFlow.PageObjects
             Driver = driver;
         }
 
-        public WebElement SearchAuthLionLionButton()
-        {
-            WebElement we = new WebElement(NavigateAuthLionLionButton,Driver);
-            we.SearchForThisElement();
-            return we;
-        }
+        #region Auth Lion Login
+                public WebElement SearchNavigateAuthLionLionButton()
+                {
+                    WebElement we = new WebElement(NavigateAuthLionLionButton,Driver);
+                    we.SearchForThisElement();
+                    return we;
+                }
+                public WebElement ClickOnNavigateAuthLionLionButton()
+                {
+                    WebElement we = new WebElement(NavigateAuthLionLionButton, Driver);
+                    we = we.ClickElement(we);
+                    return we;
+                }
 
-        public WebElement ClickOnLionLionButton()
-        {
-            WebElement we = new WebElement(CreativeLoginButton, Driver);
-            we = we.ClickElement(we);
-            return we;
-        }
+                public WebElement ClickOnAuthLionLoginStartButton()
+                {
+                    WebElement we = new WebElement(AuthLionLoginStartButton, Driver);
+                    we = we.ClickElement(we);
+                    return we;
+                }
 
-        public WebElement EnterTextInUserNameInputBox(string text)
-        {
-            WebElement we = new WebElement(CreativeUserNameInputTextBox, Driver);
-            we = we.EnterTextInElement(we, text);
-            return we;
-        }
+                public WebElement EnterTextInLionLoginUserNameInputTextBox(string text)
+                {
+                    WebElement we = new WebElement(AuthLionLoginUserNameInputTextBox, Driver);
+                    we = we.EnterTextInElement(we, text);
+                    return we;
+                }
 
-        public WebElement EnterTextInPasswordInputBox(string text)
-        {
-            WebElement we = new WebElement(CreativePasswordTextBoxInput, Driver);
-            we = we.EnterTextInElement(we, text);
-            return we;
-        }
+                public WebElement EnterTextInLionLoginPassWordInputTextBox(string text)
+                {
+                    WebElement we = new WebElement(AuthLionLoginPassWordInputTextBox, Driver);
+                    we = we.EnterTextInElement(we, text);
+                    return we;
+                }
+                #endregion
 
-        public WebElement ClickOnResetButton()
-        {
-            WebElement we = new WebElement(CreativeResetPasswordLink, Driver);
-            we = we.ClickElement(we);
-            return we;
-        }
+        # region MDM Login
+       
+                public WebElement SearchContainerFormLogin()
+                {
+                    WebElement we = new WebElement(ContainerFormLogin, Driver);
+                    we.SearchForThisElement();
+                    return we;
+                }
+        
+                public WebElement EnterTextInUserNameInputBox(string text)
+                {
+                    WebElement we = new WebElement(UserNameInputTextBox, Driver);
+                    we = we.EnterTextInElement(we, text);
+                    return we;
+                }
 
-        public WebElement ClickOnNavigateAuthLionLionButton()
-        {
-            WebElement we = new WebElement(NavigateAuthLionLionButton, Driver);
-            we = we.ClickElement(we);
-            return we;
-        }
-        public WebElement ClickOnAuthLionLoginStartButton()
-        {
-            WebElement we = new WebElement(AuthLionLoginStartButton, Driver);
-            we = we.ClickElement(we);
-            return we;
-        }
+                public WebElement EnterTextInPasswordInputBox(string text)
+                {
+                    WebElement we = new WebElement(PasswordInputTextBox, Driver);
+                    we = we.EnterTextInElement(we, text);
+                    return we;
+                }
 
-        public WebElement EnterTextInLionLionUserNameInputTextBox(string text)
-        {
-            WebElement we = new WebElement(LionLionUserNameInputTextBox, Driver);
-            we = we.EnterTextInElement(we, text);
-            return we;
-        }
-
-        public WebElement EnterTextInLionLionPassWordInputTextBox(string text)
-        {
-            WebElement we = new WebElement(LionLionPassWordInputTextBox, Driver);
-            we = we.EnterTextInElement(we, text);
-            return we;
-        }
+                public WebElement ClickOnLoginButton()
+                {
+                    WebElement we = new WebElement(LoginButton, Driver);
+                    we = we.ClickElement(we);
+                    return we;
+                }
+                #endregion
 
     }
 }

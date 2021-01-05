@@ -17,7 +17,7 @@ namespace MDM_Automation_SpecFlow.Modules
         }
         public bool IsTopSideNavDisplayed()
         {
-            TopNavigationPage topNavPObj = new TopNavigationPage(CurrentDriver);
+            MDMultiBarHeaderPage topNavPObj = new MDMultiBarHeaderPage(CurrentDriver);
             WebElement we= topNavPObj.IsTopNavContainerDisplayed();
 
             if (we.AllMatchingResults.Count == 1)
@@ -28,7 +28,7 @@ namespace MDM_Automation_SpecFlow.Modules
 
         public bool IsLogoPublicisIconDisplayed()
         {
-            TopNavigationPage topNavPObj = new TopNavigationPage(CurrentDriver);
+            MDMultiBarHeaderPage topNavPObj = new MDMultiBarHeaderPage(CurrentDriver);
             WebElement we= topNavPObj.SearchLogoPublicisIcon();
 
             if (we.AllMatchingResults.Count == 1)
@@ -39,7 +39,7 @@ namespace MDM_Automation_SpecFlow.Modules
 
         public bool IsTitleAppLabelDisplayed()
         {
-            TopNavigationPage topNavPObj = new TopNavigationPage(CurrentDriver);
+            MDMultiBarHeaderPage topNavPObj = new MDMultiBarHeaderPage(CurrentDriver);
             WebElement we= topNavPObj.SearchTitleAppLabel();
 
             if (we.AllMatchingResults.Count == 1)
@@ -50,7 +50,7 @@ namespace MDM_Automation_SpecFlow.Modules
 
         public bool IsUserNameLabelDisplayed()
         {
-            TopNavigationPage topNavPObj = new TopNavigationPage(CurrentDriver);
+            MDMultiBarHeaderPage topNavPObj = new MDMultiBarHeaderPage(CurrentDriver);
             WebElement we = topNavPObj.SearchUserNameLabel();
 
             if (we.AllMatchingResults.Count == 1)
@@ -61,7 +61,7 @@ namespace MDM_Automation_SpecFlow.Modules
 
         public bool IsAccessLevelDisplayed()
         {
-            TopNavigationPage topNavPObj = new TopNavigationPage(CurrentDriver);
+            MDMultiBarHeaderPage topNavPObj = new MDMultiBarHeaderPage(CurrentDriver);
             WebElement we = topNavPObj.SearchUserLevelAccessLabelLabel();
 
             if (we.AllMatchingResults.Count == 1)
@@ -72,7 +72,7 @@ namespace MDM_Automation_SpecFlow.Modules
 
         public bool IsLogoutDisplayed()
         {
-            TopNavigationPage topNavPObj = new TopNavigationPage(CurrentDriver);
+            MDMultiBarHeaderPage topNavPObj = new MDMultiBarHeaderPage(CurrentDriver);
             WebElement we = topNavPObj.SearchLogOutButton();
 
             if (we.AllMatchingResults.Count == 1)
@@ -83,7 +83,7 @@ namespace MDM_Automation_SpecFlow.Modules
 
         public WebElement ClickOnLogOut()
         {
-            TopNavigationPage topNavPObj = new TopNavigationPage(CurrentDriver);
+            MDMultiBarHeaderPage topNavPObj = new MDMultiBarHeaderPage(CurrentDriver);
             return topNavPObj.ClickOnLogOutButton();
         }
     }

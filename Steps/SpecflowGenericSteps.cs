@@ -1,4 +1,5 @@
 ﻿using MDM_Automation_SpecFlow.BaseClasses;
+using MDM_Automation_SpecFlow.Enums;
 using MDM_Automation_SpecFlow.Modules;
 using MDM_Automation_SpecFlow.TestData;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -22,11 +23,12 @@ namespace MDM_Automation_SpecFlow.Steps
         {
             TestVariables variablesTest = new TestVariables();
             VariablesTest = variablesTest;
-            VariablesTest.TestEnviroment = Environment.GetEnvironmentVariable("TEST_ENV");
+            VariablesTest.TestEnviroment = Environment.GetEnvironmentVariable("TEST_MDM_ENV");
             VariablesTest.EnvDataObject = new EnvironmentData(VariablesTest.TestEnviroment);
-            VariablesTest.GAUser = VariablesTest.EnvDataObject.AdminUserObj;
-            VariablesTest.ClientUser = VariablesTest.EnvDataObject.ClientUserObj;
-            VariablesTest.BaseWebUrl = VariablesTest.EnvDataObject.CreativeUrl;
+            VariablesTest.MetadataUser = VariablesTest.EnvDataObject.MetadataUserObj;
+            VariablesTest.WriteUser = VariablesTest.EnvDataObject.WriteUserObj;
+            VariablesTest.ReadOnlyUser = VariablesTest.EnvDataObject.ReadOnlyUserObj;
+            VariablesTest.BaseWebUrl = VariablesTest.EnvDataObject.MDMUrl;
         }
 
         [AfterScenario]
@@ -41,26 +43,31 @@ namespace MDM_Automation_SpecFlow.Steps
         #endregion
 
         #region Login
-        [Given(@"that the test user is as (.*) level user")]
-        public void GivenThatTheTestUserIsAsLevelUser(string role)
+        [Given(@"that the test user has '(.*)' permission user")]
+        public void GivenThatTheTestUserHasAsPermssionUser(string permission)
         {
-            if (role == "global-admin")
+            switch (permission)
             {
-                VariablesTest.MainUser = VariablesTest.GAUser;
-            }
-            else
-            {
-                VariablesTest.MainUser = VariablesTest.ClientUser;
+                case "metadata":
+                    VariablesTest.MainUser = VariablesTest.MetadataUser;
+                    break;
+                case "write":
+                    VariablesTest.MainUser = VariablesTest.WriteUser;
+                    break;
+                case "read":
+                    VariablesTest.MainUser = VariablesTest.ReadOnlyUser;
+                    break;
             }
         }
-        [Given(@"that the test user has logged into CCF")]
-        public void GivenThatTheUserHasLoggedIntoCCF()
+
+        [Given(@"that the test user has logged into MDM")]
+        public void GivenThatTheUserHasLoggedIntoMDM()
         {
-            string testBrowser = Environment.GetEnvironmentVariable("TEST_BROWSER");
+            string testBrowser = Environment.GetEnvironmentVariable("TEST_MDM_BROWSER");//type browser
             LoginModule LgnModule = new LoginModule(testBrowser);
             LgnModule.OpenBrowserAndNavigate(VariablesTest.BaseWebUrl);
             VariablesTest.WebDriver = LgnModule.CurrentDriver;
-            LgnModule.ThatTheTestAccessCRFRAs(VariablesTest.MainUser);
+            LgnModule.ThatTheTestAccessToMDMAs(VariablesTest.MainUser);
 
             VariablesTest.IsWebBrowserOpen = true;
         }

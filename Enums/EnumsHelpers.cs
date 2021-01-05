@@ -35,4 +35,15 @@ namespace MDM_Automation_SpecFlow.Enums
         Disabled = 1,
     }
 
+    public enum PermissionType
+    {
+        [Description("metadata")]
+        Metadata,
+        [Description("write")]
+        Write,
+        [Description("readOnly")]
+        ReadOnly,
+        [Description("none")]
+        None
+    }
 }

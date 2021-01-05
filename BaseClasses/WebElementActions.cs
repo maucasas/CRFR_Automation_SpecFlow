@@ -36,21 +36,21 @@ namespace MDM_Automation_SpecFlow.BaseClasses
             return we;
         }
 
-        public WebElement ClickElementByIndex(WebElement we,int indexRow)
+        public WebElement ClickElementByIndex(WebElement listwe, int indexRow)
         {
-            we.SearchForThisElement();
-            if (we.AllMatchingResults.Count > 0)
+            listwe.SearchForThisElement();
+            if (listwe.AllMatchingResults.Count > 0)
             {
-                if (indexRow > we.AllMatchingResults.Count)
+                if (indexRow > listwe.AllMatchingResults.Count)
                 {
-                    Console.WriteLine($"The index is greater than the existent in {0}", we.Selector.SName);
+                    Console.WriteLine($"The index is greater than the existent in {0}", listwe.Selector.SName);
                 }
                 else
                 {
-                    we.AllMatchingResults[indexRow-1].Click();
+                    listwe.AllMatchingResults[indexRow-1].Click();
                 }
             }
-            return we;
+            return listwe;
         }
 
         public WebElement EnterTextInElement(WebElement we, string text)
