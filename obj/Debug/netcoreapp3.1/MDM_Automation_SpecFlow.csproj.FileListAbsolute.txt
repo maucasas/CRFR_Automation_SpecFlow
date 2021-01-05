@@ -224,3 +224,4 @@ C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\obj\Debug
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\obj\Debug\netcoreapp3.1\MDM_Automation_SpecFlow.dll
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\obj\Debug\netcoreapp3.1\MDM_Automation_SpecFlow.pdb
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\obj\Debug\netcoreapp3.1\MDM_Automation_SpecFlow.genruntimeconfig.cache
+C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\obj\Debug\netcoreapp3.1\MDM_Automation_SpecFlow.csprojAssemblyReference.cache

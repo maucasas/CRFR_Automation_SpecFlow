@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "INQF9uOb7HfDqX9+n7b3xInGeXfjn1LNJ0F0P7B+EY6ltmnHwx4pcVJ2f5Qe2hOPi5Upf2XcOqzmkp7019vNaA==",
+  "dgSpecHash": "Qw3/WlW0wtAzsHpPl5+SG8t91EyNfkiJBTVN2ZSyuW39Zb1Fres5ZkoiKD79fdotTqDl1b4wvoSiTvzvcL1mww==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mauricio Casas\\Documents\\Github-Azure\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,8 @@
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "C:\\Users\\Mauricio Casas\\.nuget\\packages\\microsoft_visualstudio_qualitytools_unittestframework.stw\\12.0.21005.1\\microsoft_visualstudio_qualitytools_unittestframework.stw.12.0.21005.1.nupkg.sha512",
+    "C:\\Users\\Mauricio Casas\\.nuget\\packages\\mstest.testadapter\\2.1.2\\mstest.testadapter.2.1.2.nupkg.sha512",
+    "C:\\Users\\Mauricio Casas\\.nuget\\packages\\mstest.testframework\\2.1.2\\mstest.testframework.2.1.2.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\newtonsoft.json\\10.0.3\\newtonsoft.json.10.0.3.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
@@ -62,7 +63,9 @@
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "C:\\Users\\Mauricio Casas\\.nuget\\packages\\system.diagnostics.textwritertracelistener\\4.3.0\\system.diagnostics.textwritertracelistener.4.3.0.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\Mauricio Casas\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0\\system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\system.dynamic.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
@@ -129,16 +132,6 @@
       "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: SpecFlow.Tools.MsBuild.Generation 3.4.3 requires SpecFlow (= 3.4.3) but version SpecFlow 3.4.8 was resolved.",
       "libraryId": "SpecFlow",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft_VisualStudio_QualityTools_UnitTestFramework.STW 12.0.21005.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft_VisualStudio_QualityTools_UnitTestFramework.STW",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
