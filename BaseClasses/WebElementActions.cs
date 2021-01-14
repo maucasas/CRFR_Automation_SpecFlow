@@ -127,10 +127,10 @@ namespace MDM_Automation_SpecFlow.BaseClasses
             return we;
         }
 
-        public WebElement WebDriverWaitForSelector(WebElement we, TimeSpan timeSpan, TimeSpan milseconds)
+        public WebElement WebDriverWaitForSelector(WebElement we, TimeSpan driverTimeout, TimeSpan runtimeinterval)
         {
-            WebDriverWait = new WebDriverWait(WebDriver, timeSpan);
-            WebDriverWait.PollingInterval = TimeSpan.FromMilliseconds(250);//cada 250 milisegundos evalua el metodo waitForSearchBox
+            WebDriverWait = new WebDriverWait(WebDriver, driverTimeout);
+            WebDriverWait.PollingInterval = runtimeinterval;//each ** miliseconds check the waitForSearchBox method
             WebDriverWait.IgnoreExceptionTypes(typeof(NoSuchElementException), typeof(ElementNotVisibleException));
 
             return WebDriverWait.Until(WaitForElement(we));
@@ -141,19 +141,25 @@ namespace MDM_Automation_SpecFlow.BaseClasses
             return ((x) =>
             {
                 we.SearchForThisElement();
-
-                if (we.AllMatchingResults.Count == 1)
-                    return we;
+                if (we.AllMatchingResults.Count > 0)
+                    
+                    foreach(var ele in we.AllMatchingResults)
+                    {
+                        if (ele.Displayed)
+                        {
+                            return we;
+                        }
+                    }
                 return null;
 
             });
         }
 
-        public WebElement WebDriverWaitForEnterTextInSelector(WebElement we,string keyValues, TimeSpan timeSpan, TimeSpan milseconds)
+        public WebElement WebDriverWaitForEnterTextInSelector(WebElement we,string keyValues, TimeSpan driverTimeout, TimeSpan runtimeinterval)
         {
             WebDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
-            WebDriverWait = new WebDriverWait(WebDriver, timeSpan);
-            WebDriverWait.PollingInterval = milseconds;//cada 250 milisegundos evalua el metodo waitForSearchBox
+            WebDriverWait = new WebDriverWait(WebDriver, driverTimeout);
+            WebDriverWait.PollingInterval = runtimeinterval;//each ** miliseconds check the waitForSearchBox method
             WebDriverWait.IgnoreExceptionTypes(typeof(NoSuchElementException), typeof(ElementNotVisibleException));
 
             return WebDriverWait.Until(WaitSendKeyAndClickForElement(we, keyValues));
@@ -187,5 +193,34 @@ namespace MDM_Automation_SpecFlow.BaseClasses
             }
             return test;
         }
+
+        public bool WebDriverWaitToDisabledElementAndClick(WebElement we, TimeSpan driverTimeout,TimeSpan runtimeinterval)
+        {
+            WebDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+            WebDriverWait = new WebDriverWait(WebDriver, driverTimeout);
+            WebDriverWait.PollingInterval = runtimeinterval;//each ** miliseconds check the waitForSearchBox method
+            WebDriverWait.IgnoreExceptionTypes(typeof(NoSuchElementException), typeof(ElementNotVisibleException));
+
+            return WebDriverWait.Until(WaitToElementIsDisabled(we));
+        }
+
+        private Func<IWebDriver,bool> WaitToElementIsDisabled(WebElement we)
+        {
+            return ((x) =>
+            {
+                we.SearchForThisElement();
+                if(we.AllMatchingResults.Count == 1)
+                {
+                    var prop = we.AllMatchingResults[0].GetAttribute("disabled");
+                    if (prop == "false" || prop==null)
+                    {
+                        we.AllMatchingResults[0].Click();
+                        return true;
+                    }
+                }
+                return false;
+            });
+        }
+
     }
 }
