@@ -3,147 +3,201 @@ using MDM_Automation_SpecFlow.PageObjects;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace MDM_Automation_SpecFlow.Modules
 {
-    public class CreativesGridModule
+    public class HierarchiesModule
     {
         public int RowsAvailablesInCreativesGrid = 0;
         public IWebDriver CurrentDriver;
 
-        public CreativesGridModule(IWebDriver driver)
+        public HierarchiesModule(IWebDriver driver)
         {
             CurrentDriver = driver;
         }
 
-        //public bool IsVisibleCreativeGridContainer()
-        //{
-        //    CreativesGridPage CreativeGridPageObject = new CreativesGridPage(CurrentDriver);
-        //    WebElement Container = CreativeGridPageObject.SearchCreativeWorkbookContainer();
-        //    if (Container.AllMatchingResults.Count == 1)
-        //        return true;
-        //    else
-        //        return false;
-        //}
+        public string StatusSaveButton()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            WebElement savebutton = hierarchyPageObject.SearchSaveHierarchyButton();
+            if (savebutton.AllMatchingResults.Count == 1)
+            {
+                var sts = savebutton.AllMatchingResults[0].GetAttribute("disabled");
+                if (sts == "true" || sts == "disabled")
+                {
+                    return "disabled";
+                }
+                else
+                {
+                    return "enabled";
+                } 
+            }
+            else
+            {
+                return null;
+            }
+        }
+        public string StatusDeleteButton()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            WebElement deletebutton = hierarchyPageObject.SearchDeleteHierarchyButton();
+            if (deletebutton.AllMatchingResults.Count == 0)
+            {
+                var sts = deletebutton.AllMatchingResults[1].GetAttribute("disabled");
+                if (sts == "true" || sts == "disabled")
+                {
+                    return "disabled";
+                }
+                else
+                {
+                    return "enabled";
+                }
+            }
+            else
+            {
+                return null;
+            }
+        }
+        public void SelectOptionInDropdownHierarchiesField(string option)
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            var test = hierarchyPageObject.SearchCreateAndHierarchiesListDropdown();
 
-        //public bool EditModeBaseUrlsIsVisible()
-        //{
-        //    CreativesGridPage CreativeGridPageObject = new CreativesGridPage(CurrentDriver);
-        //    WebElement inputsVisibles = CreativeGridPageObject.SearchsBaseURLListTextBoxInputs();
-        //    if (inputsVisibles.AllMatchingResults.Count > 1)
-        //        return true;
-        //    else
-        //        return false;
-        //}
+            hierarchyPageObject.SelectOptionInHierarchiesDropdown(option);
+        }
+        public void EnterTextInHierarchyNameField(string hierarchyName)
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            hierarchyPageObject.EnterTextInHierarchyNameInput(hierarchyName);
+        }
+        public void SelectEntityOnFirstLevelHierarchy(string entity)
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            hierarchyPageObject.SelectOptionOnFirstLevel(entity);
+        }
+        public void SelectEntityOnSecondLevelHierarchy(string entity)
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            hierarchyPageObject.SelectOptionOnSecondLevel(entity);
+        }
+        public void SelectEntityOnThirdLevelHierarchy(string entity)
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            hierarchyPageObject.SelectOptionOnThirdLevel(entity);
+        }
+        public void SelectEntityOnFourthLevelHierarchy(string entity)
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            hierarchyPageObject.SelectOptionOnFourthLevel(entity);
+        }
+        public bool ClickOnSaveHierarchyButton()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            WebElement saveButton = hierarchyPageObject.ClickOnSaveHierarchyButton();
 
-        //public WebElement ClickOnEditBaseUrlButton()
-        //{
-        //    CreativesGridPage CreativeGridPageObject = new CreativesGridPage(CurrentDriver);
-        //    WebElement baseurlEditButton = CreativeGridPageObject.ClickOnBaseURLEditbutton();
-        //    return baseurlEditButton;
-        //}
+            if (saveButton.AllMatchingResults.Count == 1)
+                return true;
+            else
+                return false;
+        }
+        public bool ClickOnAcceptChangesButton()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            WebElement acceptButton = hierarchyPageObject.ClickOnAcceptNotificationButton();
 
-        //public bool IsDisbledBaseURLSaveButton()
-        //{
-        //    CreativesGridPage CreativeGridPageObject = new CreativesGridPage(CurrentDriver);
-        //    WebElement saveButton = CreativeGridPageObject.SearchBaseURLSaveButton();
-        //    if(saveButton.AllMatchingResults.Count == 1)
-        //    {
-        //        var isDisabled = saveButton.AllMatchingResults[0].GetAttribute("disabled");
-        //        if (isDisabled != "disabled")
-        //            return false;
-        //    }
-        //    return true;
-        //}
+            if (acceptButton.AllMatchingResults.Count == 1)
+                return true;
+            else
+                return false;
+        }
+        public bool ClickOnRejectChangesButton()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            WebElement rejectButton = hierarchyPageObject.ClickOnRejectNotificationButton();
 
-        //public WebElement ClickOnSaveBaseUrlsButton()
-        //{
-        //    CreativesGridPage CreativeGridPageObject = new CreativesGridPage(CurrentDriver);
-        //    var tt = IsDisbledBaseURLSaveButton();
-        //    if (tt == false)
-        //         return CreativeGridPageObject.ClickOnBaseUrlSaveButton();
-        //    return null;
-        //}
+            if (rejectButton.AllMatchingResults.Count == 1)
+                return true;
+            else
+                return false;
+        }
+        public void ElementsVisbilesInHierarchiesView()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            var savebutton = hierarchyPageObject.SearchSaveHierarchyButton().AllMatchingResults.Count > 0 ?  "Save Button": null;
+            var levels = hierarchyPageObject.SearchLevelsFieldsDisplayed().AllMatchingResults.Count > 0 ? "Save Button" : null;
+            var gridColumnsNames = hierarchyPageObject.SearchGridColumnsNames();
+            var deletebutton = hierarchyPageObject.SearchDeleteHierarchyButton().AllMatchingResults.Count > 0 ? "Delete Button" : null;
+            var dataToExcelButton = hierarchyPageObject.SearchDataToExportButton().AllMatchingResults.Count > 0 ? "Data To Excel Button" : null;
 
-        //public WebElement ClickOnButtonActionByIndex(int indexRow)
-        //{
-        //    CreativesGridPage CreativeGridPageObject = new CreativesGridPage(CurrentDriver);
-        //    WebElement actionButton = CreativeGridPageObject.ClickOnRowByIndex(indexRow);
-        //    return actionButton;
-        //}
-            
-        //public WebElement EnterOrUpdateBaseURLTextInputBox(int indexRow, string baseURLtext)
-        //{
-        //    CreativesGridPage CreativeGridPageObject = new CreativesGridPage(CurrentDriver);
-        //    WebElement selecInput =CreativeGridPageObject.EnterTextInBaseUrlByIndex(indexRow, baseURLtext);
-        //    return selecInput;
-        //}
+            if(gridColumnsNames.AllMatchingResults.Count > 0)
+            {
+                gridColumnsNames.AllMatchingResults.ForEach(x => {
+                   var text =  x.GetAttribute("Text");
+                });
+            }
+        }
+        public bool IsVisibleSuccessNotification()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            var weSuccessN = hierarchyPageObject.SearchSuccessNotification();
 
-        //public bool SearchValueInCreativeGridColumn(string columnName, int indexRowToSearch, string valueToMatch)
-        //{
-        //    CreativesGridPage CreativeGridPageObject = new CreativesGridPage(CurrentDriver);
-        //    bool isValueMacthed = false;
-        //    SearchAvailablesRowsInCreativesGrid();
-        //    switch (columnName.ToUpper())
-        //    {
-        //        case "CREATIVE NAME":
-        //            WebElement creativeNameSelector = CreativeGridPageObject.SearchsCreativesListNames();
-        //            isValueMacthed = MatchValueInList(creativeNameSelector, indexRowToSearch, valueToMatch);
-        //            break;
-        //        case "DESCRIPTION":
-        //            WebElement descriptionSelector = CreativeGridPageObject.SearchsCreativeListDescription();
-        //            isValueMacthed = MatchValueInList(descriptionSelector,indexRowToSearch, valueToMatch);
-        //            break;
-        //        case "CREATIVE SIZE":
-        //            WebElement creativeSizeSelector = CreativeGridPageObject.SearchsCreativesListSize();
-        //            isValueMacthed = MatchValueInList(creativeSizeSelector, indexRowToSearch, valueToMatch);
-        //            break;
-        //        case "BASE URL":
-        //            WebElement baseUrlSelector = CreativeGridPageObject.SearchsCreativesListBaseURL();
-        //            isValueMacthed = MatchValueInList(baseUrlSelector, indexRowToSearch,valueToMatch);
-        //            break;
-        //        default:
-        //            Console.WriteLine("Column Name is not Matched");
-        //            break;
-        //    }
-        //     return isValueMacthed;
-        //}
+            if (weSuccessN.AllMatchingResults.Count > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool IsVisibleAcceptNotificationButton()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            var webutton = hierarchyPageObject.SearchAcceptNotificationButton();
 
-        //private bool MatchValueInList(WebElement selector, int indexRowToSearch, string valueToMatch)
-        //{
-        //    if (selector.AllMatchingResults.Count > 0)
-        //    {
-        //        if(indexRowToSearch > selector.AllMatchingResults.Count)
-        //        {
-        //            Console.WriteLine("Index rowto Search out of range");
-        //        }
-        //        else
-        //        {
-        //            string valueMatched = selector.AllMatchingResults[indexRowToSearch].Text;
-
-        //            if (valueMatched == valueToMatch)
-        //                return true;
-        //        }
-        //    }
-        //    return false;
-        //}
-
-        //private void SearchAvailablesRowsInCreativesGrid()
-        //{
-        //    CreativesGridPage CreativeGridPageObject = new CreativesGridPage(CurrentDriver);
-        //    WebElement rowsAvailables = CreativeGridPageObject.SearchsCreativesListNames();
-            
-        //    if(rowsAvailables.AllMatchingResults.Count > 1)
-        //    {
-        //        rowsAvailables.AllMatchingResults.ForEach((x) =>
-        //        {
-        //            if (x.Text.Contains("ID"))
-        //            {
-        //                RowsAvailablesInCreativesGrid += 1;
-        //            }
-        //        });
-        //    }
-        //}
+            if (webutton.AllMatchingResults.Count == 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public List<string> GetTextInNotificationMessage()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            var welist = hierarchyPageObject.SearchListNotificationMessagge();
+            List<string> listMessa = new List<string>();
+            if (welist.AllMatchingResults.Count > 0)
+            {
+                welist.AllMatchingResults.ForEach((x) =>
+                {
+                    if (x.Text != null && x.Text != "")
+                        listMessa.Add(x.Text);
+                });
+            }
+            return listMessa;
+        }
+        public bool ClickOnAddNextLevelButton()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            var we = hierarchyPageObject.ClickOnAddNextLevelButton();
+            if (we.AllMatchingResults.Count == 1)
+                return true;
+            else
+                return false;
+        }
+        public bool ClickOnDeleteButton()
+        {
+            HierarchiesPage hierarchyPageObject = new HierarchiesPage(CurrentDriver);
+            var we = hierarchyPageObject.ClickOnDeleteHierarchyButton();
+            if (we.AllMatchingResults.Count == 1)
+                return true;
+            else
+                return false;
+        }
     }
 }

@@ -6,7 +6,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading;
 using TechTalk.SpecFlow;
 
 namespace MDM_Automation_SpecFlow.Steps
@@ -73,167 +75,120 @@ namespace MDM_Automation_SpecFlow.Steps
         }
         #endregion
 
-        //#region SideNav
-        //[Given(@"the SideNav has loaded")]
-        //[When(@"the SideNav has loaded")]
-        //public void WhenTheSideNavHasLoaded()
-        //{
-        //    SideNavModule SNavModule = new SideNavModule(VariablesTest.WebDriver);
-        //    bool isPresent = SNavModule.IsSideNavDisplayed();
+        #region  Hierarchies
+        [Given(@"that the hiearchy button is '(.*)'")]
+        public void GivenThatTheHiearchyButtonIs(string p0)
+        {
+            MDMmultiBarHeaderModule headerModule = new MDMmultiBarHeaderModule(VariablesTest.WebDriver);
+            var statusBtnHierarchy = headerModule.IsDisabledHierarchyButton();
+            Assert.AreEqual(statusBtnHierarchy, p0);
+        }
 
-        //    Assert.AreEqual(true, isPresent);
-        //}
+        [Given(@"that the user has navigated to hierarchy view in '(.*)' model")]
+        public void GivenThatTheUserHasNavigatedToHierarchyViewInModel(string p0)
+        {
+            MDMmultiBarHeaderModule headerModule = new MDMmultiBarHeaderModule(VariablesTest.WebDriver);
+            headerModule.NavigateToHiearchieswViewByModel(p0);
+        }
 
-        //[Then(@"the Campaign LinkText should be (.*)")]
-        //public void ThenTheCampaingLinkTextShouldBe(string isVisible)
-        //{
+        [Given(@"that the test users has selected '(.*)' option in dropdown hierarchies")]
+        public void GivenThatTheTestUsersHasSelectedOptionInDropdownHiearchies(string p0)
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            hmodules.SelectOptionInDropdownHierarchiesField(p0);
+        }
 
-        //    //SpecflowGenericSteps sgs = new SpecflowGenericSteps();
-        //    SideNavModule SNavModule = new SideNavModule(VariablesTest.WebDriver);
-        //    bool isPresent = SNavModule.IsCampaignLinkTextDisplayed();
+        [Given(@"that the test user has entered '(.*)' in hierarchy name field")]
+        public void GivenThatTheTestUserHasEnteredInHierarchyNameField(string p0)
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            hmodules.EnterTextInHierarchyNameField(p0);
+            Thread.Sleep(1000);
+        }
 
-        //    switch (isVisible)
-        //    {
-        //        case "visible":
-        //            Assert.AreEqual(true, isPresent);
-        //            break;
-        //        case "not-visible":
-        //            Assert.AreEqual(false, isPresent);
-        //            break;
-        //    }
-        //}
+        [Given(@"that the test user has selected '(.*)' entity in the first level")]
+        public void GivenThatTheTestUserHasSelectedEntityInTheFirstLevel(string entity)
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            hmodules.SelectEntityOnFirstLevelHierarchy(entity);
+        }
 
-        //[Then(@"the Creative LinkText should be visible")]
-        //public void ThenTheCreativeLinkTextShouldBeVisible()
-        //{
-        //    SideNavModule SNavModule = new SideNavModule(VariablesTest.WebDriver);
+        [Given(@"that the test user has selected '(.*)' entity in the second level")]
+        public void GivenThatTheTestUserHasSelectedEntityInTheSecondLevel(string entity)
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            hmodules.SelectEntityOnSecondLevelHierarchy(entity);
+        }
 
-        //    bool IsVisible = SNavModule.IsCreativeContainerDisplayed();
+        [Given(@"that the test user has selected '(.*)' entity in the third level")]
+        public void GivenThatTheTestUserHasSelectedEntityInTheThirdLevel(string entity)
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            bool clickedaddlevel = hmodules.ClickOnAddNextLevelButton();
+            if(clickedaddlevel==true)
+                hmodules.SelectEntityOnThirdLevelHierarchy(entity);
+        }
 
-        //    Assert.AreEqual(true, IsVisible);
-        //}
+        [Given(@"that the test user has selected '(.*)' entity in the fourth level")]
+        public void GivenThatTheTestUserHasSelectedEntityInTheFourthLevel(string entity)
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            bool clickedaddlevel = hmodules.ClickOnAddNextLevelButton();
+            if (clickedaddlevel == true)
+                hmodules.SelectEntityOnFourthLevelHierarchy(entity);
+        }
 
-        //[Then(@"the Config LinkText should be (.*)")]
-        //public void ThenTheConfigLinkTextShouldBe(string isVisible)
-        //{
-        //    SideNavModule SNavModule = new SideNavModule(VariablesTest.WebDriver);
-        //    bool isPresent = SNavModule.IsConfigContainerDisplayed();
+        [When(@"the test user clicks on save button")]
+        public void WhenTheTestUserClicksOnSaveButton()
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            var saved = hmodules.ClickOnSaveHierarchyButton();
+            Assert.IsTrue(saved);
+        }
 
-        //    switch (isVisible)
-        //    {
-        //        case "visible":
-        //            Assert.AreEqual(true, isPresent);
-        //            break;
-        //        case "not-visible":
-        //            Assert.AreEqual(false, isPresent);
-        //            break;
-        //    }
-        //}
+        [Then(@"a message notification is rendered with '(.*)' text when '(.*)' hierarchy")]
+        public void ThenAMessageNotificationIsRenderedWithText(string p0, string p1)
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            List<string> txtmessage = hmodules.GetTextInNotificationMessage();
+            var rr = txtmessage.Where((x) => x == p0).FirstOrDefault();
+            string txt = txtmessage[0].ToString();
+                Assert.AreEqual(rr.ToString(), p0);
+        }
 
-        //private void AssertAreEqual(string expected, string actual)
-        //{
-        //    try
-        //    {
-        //        Assert.AreEqual(expected, actual);
-        //    }
-        //    catch (Exception ex)
-        //    {
+        [Then(@"a confirmation messagge to prevent changes is rendered")]
+        public void ThenAConfirmationMessaggeToPreventChangesIsRendered()
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            var isVisible = hmodules.IsVisibleAcceptNotificationButton();
+            Assert.IsTrue(isVisible);
+        }
 
-        //    }
+        [When(@"the test user clicks on '(.*)' button")]
+        public void WhenTheTestUserClicksOnButton(string p0)
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            bool clickbutton;
+           switch (p0)
+            {
+                case "YES":
+                    clickbutton = hmodules.ClickOnAcceptChangesButton();
+                    break;
+                case "NO":
+                    clickbutton = hmodules.ClickOnRejectChangesButton();
+                    break;
+            }
+            Assert.IsTrue(true);
+        }
 
-        //}
+        [When(@"the test user clicks on delete hierarchy button")]
+        public void WhenTheTestUserClicksOnDeleteHierarchyButton()
+        {
+            HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
+            hmodules.ClickOnDeleteButton();
+        }
 
-        //#endregion
+        #endregion
 
-        //#region ACRC_Actions
-
-        //[Given(@"that the test user has selected '(.*)' agency")]
-        //public void GivenThatTheTestUserHasSelectedAgency(string p0)
-        //{
-        //    ClientDataModule clDataModObj = new ClientDataModule(VariablesTest.WebDriver);
-        //    clDataModObj.EnterTextInAgencyDropdown(p0);
-        //}
-
-        //[Given(@"that the test user has selected '(.*)' client")]
-        //public void GivenThatTheTestUserHasSelectedClient(string p0)
-        //{
-        //    ClientDataModule clDataModObj = new ClientDataModule(VariablesTest.WebDriver);
-        //    clDataModObj.EnterTextInClientDropdown(p0);
-        //}
-
-        //[Given(@"that the test user has selected '(.*)' region")]
-        //public void GivenThatTheTestUserHasSelectedRegion(string p0)
-        //{
-        //    ClientDataModule clDataModObj = new ClientDataModule(VariablesTest.WebDriver);
-        //    clDataModObj.EnterTextInRegionDropdown(p0);
-        //}
-
-        //[Given(@"that the test user has selected '(.*)' country")]
-        //public void GivenThatTheTestUserHasSelectedCountry(string p0)
-        //{
-        //    ClientDataModule clDataModObj = new ClientDataModule(VariablesTest.WebDriver);
-        //    clDataModObj.EnterTextInCountryDropdown(p0);
-        //}
-
-        //#endregion
-
-        //#region CampaignActions
-        //[Given(@"that the test user has selected a campaign")]
-        //public void GivenThatTheTestUserHasSelectedACampaign()
-        //{
-        //    CampaignsGridModule camModObj =new  CampaignsGridModule(VariablesTest.WebDriver);
-        //    camModObj.ClickInCampaignRowByIndex(1);
-        //}
-        //#endregion
-
-        //#region CreativeActions
-        //[Given(@"that the test user has selected new creative button")]
-        //public void GivenThatTheTestUserHasSelectedNewCreativeButton()
-        //{
-        //    CreativeHeaderActionsModule cHActionModObj = new CreativeHeaderActionsModule(VariablesTest.WebDriver);
-        //    cHActionModObj.ClickOnNewCreativeButton();
-        //}
-
-        //[Given(@"that the test user has selects the dropdowns options")]
-        //public void GivenThatTheTestUserHasSelectsTheDropdownsOptions()
-        //{
-        //    CreativesTXModule crTXModObj = new CreativesTXModule(VariablesTest.WebDriver);
-        //    crTXModObj.SelectOptionInDropdownsByIndex(1);
-        //}
-
-        //[Given(@"that the test user has populate freeforms text")]
-        //public void GivenThatTheTestUserHasPopulateFreeformsText()
-        //{
-        //    CreativesTXModule crTXModObj = new CreativesTXModule(VariablesTest.WebDriver);
-        //    crTXModObj.EnterTextInFreeFormsList("Free form loaded Automated");
-        //}
-
-        //[Given(@"that the test user has selected datepicker")]
-        //public void GivenThatTheTestUserHasSelectedDatepicker()
-        //{
-        //    CreativesTXModule crTXModObj = new CreativesTXModule(VariablesTest.WebDriver);
-        //    crTXModObj.SelectStartDate(1);
-        //    crTXModObj.SelectEndDate(28);
-        //}
-
-        //[When(@"the test user clicks on save button")]
-        //public void WhenTheTestUserClicksOnSaveButton()
-        //{
-        //    CreativesTXModule crTXModObj = new CreativesTXModule(VariablesTest.WebDriver);
-        //    crTXModObj.ClickOnSaveButton();
-        //}
-
-        //[Then(@"the creative taxonomy string is displayed")]
-        //public void ThenTheCreativeTaxonomyStringIsDisplayed()
-        //{
-        //    CreativesTXModule crTXModObj = new CreativesTXModule(VariablesTest.WebDriver);
-        //    bool isVisible = crTXModObj.IsVisibleTaxonomyString();
-
-        //    Assert.IsTrue(isVisible);
-        //}
-
-
-
-        //#endregion
     }
 }

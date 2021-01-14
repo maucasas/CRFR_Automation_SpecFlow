@@ -23,7 +23,8 @@ namespace MDM_Automation_SpecFlow.TestData
 
             ReadOnlyUserObj.UserName = "ZOAppDevTest1-tst";
             WriteUserObj.UserName = "ZOAppDevTest2-tst";
-            MetadataUserObj.UserName = "ZOAppDevTest3-tst";
+            //MetadataUserObj.UserName = "ZOAppDevTest3-tst";
+            MetadataUserObj.UserName = "maucasas";
 
             switch (testEnvironment.ToLower())
             {

@@ -119,6 +119,9 @@ C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.Plus.RPC.dll
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\StreamJsonRpc.dll
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\FSharp.Core.dll
+C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\MDM_Automation_SpecFlow.deps.json
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\MDM_Automation_SpecFlow.runtimeconfig.json
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\MDM_Automation_SpecFlow.runtimeconfig.dev.json
@@ -137,7 +140,8 @@ C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\testhost.dll
-C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Users\Mauricio Casas\Documents\Github-Azure\MDM_Automation_SpecFlow\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
