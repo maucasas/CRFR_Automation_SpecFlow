@@ -25,7 +25,7 @@ namespace MDM_Automation_SpecFlow.Modules
             webObject.SetBrowser(WebBrowser);
             CurrentDriver = webObject.WebDriver;
             webObject.MaximizeWindow();
-            webObject.UpdateImplicitWait(10);
+            webObject.UpdateImplicitWait(30);
             webObject.LoadWebPage(url);
         }
 

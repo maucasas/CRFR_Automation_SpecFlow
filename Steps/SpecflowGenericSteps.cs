@@ -1,4 +1,5 @@
-﻿using MDM_Automation_SpecFlow.BaseClasses;
+﻿using MDM_Automation_SpecFlow.APIClients.MDM;
+using MDM_Automation_SpecFlow.BaseClasses;
 using MDM_Automation_SpecFlow.Enums;
 using MDM_Automation_SpecFlow.Modules;
 using MDM_Automation_SpecFlow.TestData;
@@ -19,6 +20,15 @@ namespace MDM_Automation_SpecFlow.Steps
         //private readonly ScenarioContext ScenarioContext;
         public TestVariables VariablesTest { get; set; }
 
+        public string GetThisUserMDMBearerToken(string username, string password)
+        {
+            string token = null;
+            MasterdataLoginAPIClient TXLogin = new MasterdataLoginAPIClient(VariablesTest.BaseAPIUrl, username, password);
+            token = TXLogin.RetrieveBearerToken();
+            return token;
+        }
+
+
         #region
         [BeforeScenario]
         public void TestSetup()
@@ -31,6 +41,7 @@ namespace MDM_Automation_SpecFlow.Steps
             VariablesTest.WriteUser = VariablesTest.EnvDataObject.WriteUserObj;
             VariablesTest.ReadOnlyUser = VariablesTest.EnvDataObject.ReadOnlyUserObj;
             VariablesTest.BaseWebUrl = VariablesTest.EnvDataObject.MDMUrl;
+            VariablesTest.BaseAPIUrl = VariablesTest.EnvDataObject.MDMUrlAPI;
         }
 
         [AfterScenario]
@@ -75,6 +86,26 @@ namespace MDM_Automation_SpecFlow.Steps
         }
         #endregion
 
+        #region Generic
+
+        [Given(@"that the test user has selected '(.*)' model")]
+        public void GivenThatTheTestUserHasSelectedModel(string p0)
+        {
+            MDMmultiBarHeaderModule headerModule = new MDMmultiBarHeaderModule(VariablesTest.WebDriver);
+            headerModule.ClickOnDropdwonModelButton();
+            headerModule.ClickOnListModelByName(p0);
+        }
+
+        [Given(@"that the test user has clicked on hieararchy button")]
+        public void GivenThatTheTestUserHasClickedOnHieararchyButton()
+        {
+            MDMmultiBarHeaderModule headerModule = new MDMmultiBarHeaderModule(VariablesTest.WebDriver);
+            headerModule.ClickOnHierarchiesButton();
+        }
+
+
+        #endregion
+
         #region  Hierarchies
         [Given(@"that the hiearchy button is '(.*)'")]
         public void GivenThatTheHiearchyButtonIs(string p0)
@@ -82,13 +113,6 @@ namespace MDM_Automation_SpecFlow.Steps
             MDMmultiBarHeaderModule headerModule = new MDMmultiBarHeaderModule(VariablesTest.WebDriver);
             var statusBtnHierarchy = headerModule.IsDisabledHierarchyButton();
             Assert.AreEqual(statusBtnHierarchy, p0);
-        }
-
-        [Given(@"that the user has navigated to hierarchy view in '(.*)' model")]
-        public void GivenThatTheUserHasNavigatedToHierarchyViewInModel(string p0)
-        {
-            MDMmultiBarHeaderModule headerModule = new MDMmultiBarHeaderModule(VariablesTest.WebDriver);
-            headerModule.NavigateToHiearchieswViewByModel(p0);
         }
 
         [Given(@"that the test users has selected '(.*)' option in dropdown hierarchies")]
@@ -187,6 +211,136 @@ namespace MDM_Automation_SpecFlow.Steps
             HierarchiesModule hmodules = new HierarchiesModule(VariablesTest.WebDriver);
             hmodules.ClickOnDeleteButton();
         }
+
+        #endregion
+
+        #region Entity
+        [Given(@"that the test users clicks on add entity button")]
+        public void GivenThatTheTestUsersClicksOnAddEntityButton()
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            entitiesMObj.ClickOnAddEntityButton();
+        }
+
+        [Given(@"that the test user has entered '(.*)' text on entity name free form input")]
+        public void GivenThatTheTestUserHasEnteredTextOnEntityNameFreeFormField(string p0)
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            entitiesMObj.EnterTextInEntityNameFreeformInput(p0);
+            Thread.Sleep(4000);
+        }
+
+
+        [When(@"the test user clicks on save new entity button")]
+        public void WhenTheTestUserClicksOnSaveNewEntityButton()
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            entitiesMObj.ClickOnSaveNewEntityButton();
+        }
+
+        [Then(@"the new '(.*)' entity is added in the list entities")]
+        public void ThenTheNewEntityIsAddedInTheListEntities(string p0)
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            bool isPresent = entitiesMObj.IsPresentTheEntity(p0);
+            Assert.IsTrue(isPresent);
+        }
+
+        [Given(@"that the test user has selected '(.*)' entity")]
+        public void GivenThatTheTestUserHasSelectedEntity(string p0)
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            bool wasClicked = entitiesMObj.ClickOnEntityRow(p0);
+            Assert.IsTrue(wasClicked);
+        }
+
+        [Given(@"that the delete button is enabled")]
+        public void GivenThatTheDeleteButtonIsEnabled()
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            var isEnabled = entitiesMObj.IsDeleteButtonEnabled();
+            Assert.IsTrue(isEnabled);
+        }
+
+        [Given(@"that the test user clicks on delete entity button")]
+        public void GivenThatTheTestUserClicksOnDeleteEntityButton()
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            entitiesMObj.ClickOnDeleteEntityButton();
+        }
+
+        [Given(@"that the test user has entered '(.*)' text in confirm delete entity input")]
+        public void GivenThatTheTestUserHasEnteredTextInConfirmDeleteEntityInput(string p0)
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            entitiesMObj.EnterConfirmTxtInDeleteInput(p0);
+        }
+
+        [Given(@"that the test user has clicked confirm delete entity button")]
+        public void GivenThatTheTestUserHasClickedConfirmDeleteEntityButton()
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            entitiesMObj.ClickOnConfirmDeleteButton();
+        }
+
+
+        [Then(@"the '(.*)' entity is removed of the list entities")]
+        public void ThenTheEntityIsRemovedOfTheListEntities(string p0)
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            var IsPresent = entitiesMObj.IsPresentTheEntity(p0);
+            Assert.IsFalse(IsPresent);
+        }
+
+        [Given(@"that the test user has clicked on edit entity button")]
+        public void GivenThatTheTestUserHasClicksedOnEditEntityButton()
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            bool wasClicked = entitiesMObj.ClickOnEditEntityButton();
+            Assert.IsTrue(wasClicked);
+        }
+
+        [Given(@"that the test user has clicked on Add New Attribute button")]
+        public void GivenThatTheTestUserHasClickedOnAddNewAttributeButton()
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            entitiesMObj.ClickOnAddAttributeButton();
+        }
+
+        [When(@"the test user selects '(.*)' on dropdown attribute type")]
+        public void WhenTheTestUserSelectsOnDropdownAttributeType(string p0)
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            entitiesMObj.SelectOptionInDropdownAttributeType(p0);
+        }
+
+        [Then(@"the '(.*)' column field is displayed")]
+        public void ThenTheColumnFieldIsDisplayed(string p0)
+        {
+            EntitiesModule entitiesMObj = new EntitiesModule(VariablesTest.WebDriver);
+            switch (p0)
+            {
+                case "Date":
+                    var isDisabledDate = entitiesMObj.IsDisplayedTheAttributeField(p0);
+                    Assert.IsTrue(isDisabledDate);
+                    break;
+                case "Number":
+                    var isDisabled = entitiesMObj.IsDisplayedTheAttributeField(p0);
+                    break;
+                case "Text":
+                    var isDisabledText = entitiesMObj.IsDisplayedTheAttributeField(p0);
+                    break;
+                case "Currency":
+                    var isDisabledCurrency = entitiesMObj.IsDisplayedTheAttributeField(p0);
+                    break;
+                case "Mapping Column":
+                    var isDisabledMappingCol = entitiesMObj.IsDisplayedTheAttributeField(p0);
+
+                    break;
+            }
+        }
+
+
 
         #endregion
 

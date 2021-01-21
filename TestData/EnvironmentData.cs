@@ -7,6 +7,7 @@ namespace MDM_Automation_SpecFlow.TestData
     public class EnvironmentData
     {
         public string MDMUrl { get; private set; }
+        public string MDMUrlAPI { get; private set; }
 
         public User MetadataUserObj = new User();
        
@@ -21,14 +22,15 @@ namespace MDM_Automation_SpecFlow.TestData
         public EnvironmentData(string testEnvironment)
         {
 
-            ReadOnlyUserObj.UserName = "ZOAppDevTest1-tst";
-            WriteUserObj.UserName = "ZOAppDevTest2-tst";
-            //MetadataUserObj.UserName = "ZOAppDevTest3-tst";
+            ReadOnlyUserObj.UserName = "ZOAppDevTest2-tst"; //read
+            WriteUserObj.UserName = "ZOAppDevTest3-tst";// write
+            MetadataUserObj.UserName = "ZOAppDevTest4-tst";// metadata
             MetadataUserObj.UserName = "maucasas";
 
             switch (testEnvironment.ToLower())
             {
                 case "qa":
+                    MDMUrlAPI = "https://qa-masterdata-api.publicismedia.com";
                     MDMUrl = "https://qa-masterdata.publicismedia.com/";
                     MDMPermissions.Add("ReadOnly", 0);
                     MDMPermissions.Add("Write", 1);
@@ -38,6 +40,7 @@ namespace MDM_Automation_SpecFlow.TestData
                     MetadataUserObj.Password = Environment.GetEnvironmentVariable("QA_MDM_METADATA_USER_PASSWORD");
                     break;
                 case "pp":
+                    MDMUrlAPI = "https://qa-masterdata-api.publicismedia.com";
                     MDMUrl = "http://masterdata.publicismedia.com/";
                     MDMPermissions.Add("ReadOnly", 0);
                     MDMPermissions.Add("Write", 1);
@@ -47,6 +50,7 @@ namespace MDM_Automation_SpecFlow.TestData
                     MetadataUserObj.Password = Environment.GetEnvironmentVariable("PP_MDM_METADATA_USER_PASSWORD");
                     break;
                 case "dev":
+                    MDMUrlAPI = "https://dev-masterdata.cloud.vivaki.com:8001";
                     MDMUrl = "https://dev-masterdata.cloud.vivaki.com/";
                     MDMPermissions.Add("ReadOnly", 0);
                     MDMPermissions.Add("Write", 1);

@@ -10,8 +10,6 @@ namespace MDM_Automation_SpecFlow.BaseClasses
 {
     public class WebElementActions
     {
-        //public Selector WeSelector { get; set; }
-
         public IWebDriver WebDriver;
         public WebDriverWait WebDriverWait { get; set; }
 
@@ -184,7 +182,6 @@ namespace MDM_Automation_SpecFlow.BaseClasses
 
         public string SelectorContainAttribute(WebElement we, AttributeType attType)
         {
-            AttributeElement attributeOfSelector = new AttributeElement();
             string test = "";
 
             if (we.AllMatchingResults.Count == 1)

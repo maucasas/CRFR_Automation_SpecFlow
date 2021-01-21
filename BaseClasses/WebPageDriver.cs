@@ -37,7 +37,9 @@ namespace MDM_Automation_SpecFlow.BaseClasses
                     WebDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
                     break;
                 case "firefox":
-                    WebDriver = new FirefoxDriver(@"C:\WebDrivers");
+                    FirefoxOptions options = new FirefoxOptions();
+                    options.BrowserExecutableLocation = @"C:\WebDrivers";
+                                    WebDriver = new FirefoxDriver(options);
                     WebDriver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(30);
                     WebDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
                     break;

@@ -114,32 +114,35 @@ this.ScenarioInitialize(scenarioInfo);
 this.FeatureBackground();
 #line hidden
 #line 9
- testRunner.And("that the user has navigated to hierarchy view in \'Global\' model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("that the test user has selected \'Global\' model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 10
- testRunner.And("that the test users has selected \'Create New...\' option in dropdown hierarchies", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("that the test user has clicked on hieararchy button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 11
+ testRunner.And("that the test users has selected \'Create New...\' option in dropdown hierarchies", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 12
  testRunner.And("that the test user has entered \'Automation Two levels Test00\' in hierarchy name f" +
                         "ield", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 12
+#line 13
  testRunner.And("that the test user has selected \'Link Master Advertiser Master Agency\' entity in " +
                         "the first level", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 13
+#line 14
  testRunner.And("that the test user has selected \'Master Agency\' entity in the second level", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 14
+#line 15
  testRunner.When("the test user clicks on save button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 15
+#line 16
  testRunner.Then("a confirmation messagge to prevent changes is rendered", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 16
+#line 17
  testRunner.When("the test user clicks on \'YES\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 17
+#line 18
  testRunner.Then("a message notification is rendered with \'The hierarchy was saved\' text when \'crea" +
                         "te\' hierarchy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
@@ -147,13 +150,13 @@ this.FeatureBackground();
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Can not Create a Hierarchy with the same name", SourceLine=18)]
+        [TechTalk.SpecRun.ScenarioAttribute("Can not Create a Hierarchy with the same name", SourceLine=19)]
         public virtual void CanNotCreateAHierarchyWithTheSameName()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Can not Create a Hierarchy with the same name", null, tagsOfScenario, argumentsOfScenario);
-#line 19
+#line 20
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -176,32 +179,35 @@ this.ScenarioInitialize(scenarioInfo);
 #line 3
 this.FeatureBackground();
 #line hidden
-#line 20
- testRunner.And("that the user has navigated to hierarchy view in \'Global\' model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
 #line 21
- testRunner.And("that the test users has selected \'Create New...\' option in dropdown hierarchies", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("that the test user has selected \'Global\' model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 22
- testRunner.And("that the test user has entered \'Hierarchy Test Name\' in hierarchy name field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("that the test user has clicked on hieararchy button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 23
+ testRunner.And("that the test users has selected \'Create New...\' option in dropdown hierarchies", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 24
+ testRunner.And("that the test user has entered \'Hierarchy Test Name\' in hierarchy name field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 25
  testRunner.And("that the test user has selected \'Link Master Advertiser Master Agency\' entity in " +
                         "the first level", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 24
+#line 26
  testRunner.And("that the test user has selected \'Master Agency\' entity in the second level", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 25
+#line 27
  testRunner.When("the test user clicks on save button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 26
+#line 28
  testRunner.Then("a confirmation messagge to prevent changes is rendered", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 27
+#line 29
  testRunner.When("the test user clicks on \'YES\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 28
+#line 30
  testRunner.Then("a message notification is rendered with \'Can\'t create the Hierarchy. An Hierarchy" +
                         " with the name «Hierarchy Test Name» already exists\' text when \'re-create\' hiera" +
                         "rchy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -210,13 +216,13 @@ this.FeatureBackground();
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Create a new hierarchy with three levels inside a model", SourceLine=29)]
+        [TechTalk.SpecRun.ScenarioAttribute("Create a new hierarchy with three levels inside a model", SourceLine=31)]
         public virtual void CreateANewHierarchyWithThreeLevelsInsideAModel()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create a new hierarchy with three levels inside a model", null, tagsOfScenario, argumentsOfScenario);
-#line 30
+#line 32
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -239,37 +245,40 @@ this.ScenarioInitialize(scenarioInfo);
 #line 3
 this.FeatureBackground();
 #line hidden
-#line 31
- testRunner.And("that the user has navigated to hierarchy view in \'Global\' model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 32
- testRunner.And("that the test users has selected \'Create New...\' option in dropdown hierarchies", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
 #line 33
- testRunner.And("that the test user has entered \'Automation Three Levels Test00\' in hierarchy name" +
-                        " field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("that the test user has selected \'Global\' model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 34
+ testRunner.And("that the test user has clicked on hieararchy button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 35
+ testRunner.And("that the test users has selected \'Create New...\' option in dropdown hierarchies", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 36
+ testRunner.And("that the test user has entered \'Automation Three Levels Test01\' in hierarchy name" +
+                        " field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 37
  testRunner.And("that the test user has selected \'Raw Buying System Advertiser\' entity in the firs" +
                         "t level", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 35
+#line 38
  testRunner.And("that the test user has selected \'Master Business Unit\' entity in the second level" +
                         "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 36
+#line 39
  testRunner.And("that the test user has selected \'Master Advertiser\' entity in the third level", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 37
+#line 40
  testRunner.When("the test user clicks on save button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 38
+#line 41
  testRunner.Then("a confirmation messagge to prevent changes is rendered", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 39
+#line 42
  testRunner.When("the test user clicks on \'YES\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 40
+#line 43
  testRunner.Then("a message notification is rendered with \'The hierarchy was saved\' text when \'crea" +
                         "te\' hierarchy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
@@ -277,13 +286,13 @@ this.FeatureBackground();
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Create a new hierarchy with fourth levels inside a model", SourceLine=41)]
+        [TechTalk.SpecRun.ScenarioAttribute("Create a new hierarchy with fourth levels inside a model", SourceLine=44)]
         public virtual void CreateANewHierarchyWithFourthLevelsInsideAModel()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create a new hierarchy with fourth levels inside a model", null, tagsOfScenario, argumentsOfScenario);
-#line 42
+#line 45
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -306,41 +315,44 @@ this.ScenarioInitialize(scenarioInfo);
 #line 3
 this.FeatureBackground();
 #line hidden
-#line 43
- testRunner.And("that the user has navigated to hierarchy view in \'Global\' model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 46
+ testRunner.And("that the test user has selected \'Global\' model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 44
+#line 47
+ testRunner.And("that the test user has clicked on hieararchy button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 48
  testRunner.And("that the test users has selected \'Create New...\' option in dropdown hierarchies", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 45
+#line 49
  testRunner.And("that the test user has entered \'Automation Fourth Levels Test00\' in hierarchy nam" +
                         "e field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 46
+#line 50
  testRunner.And("that the test user has selected \'Raw Buying System Advertiser\' entity in the firs" +
                         "t level", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 47
+#line 51
  testRunner.And("that the test user has selected \'Master Business Unit\' entity in the second level" +
                         "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 48
+#line 52
  testRunner.And("that the test user has selected \'Master Advertiser\' entity in the third level", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 49
+#line 53
  testRunner.And("that the test user has selected \'Master Advertiser Owner\' entity in the fourth le" +
                         "vel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 50
+#line 54
  testRunner.When("the test user clicks on save button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 51
+#line 55
  testRunner.Then("a confirmation messagge to prevent changes is rendered", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 52
+#line 56
  testRunner.When("the test user clicks on \'YES\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 53
+#line 57
  testRunner.Then("a message notification is rendered with \'The hierarchy was saved\' text when \'crea" +
                         "te\' hierarchy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
@@ -348,13 +360,13 @@ this.FeatureBackground();
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Delete a existent hierarchy", SourceLine=54)]
+        [TechTalk.SpecRun.ScenarioAttribute("Delete a existent hierarchy", SourceLine=58)]
         public virtual void DeleteAExistentHierarchy()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Delete a existent hierarchy", null, tagsOfScenario, argumentsOfScenario);
-#line 55
+#line 59
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -377,23 +389,26 @@ this.ScenarioInitialize(scenarioInfo);
 #line 3
 this.FeatureBackground();
 #line hidden
-#line 56
- testRunner.And("that the user has navigated to hierarchy view in \'Global\' model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 57
- testRunner.And("that the test users has selected \'Automation Three Levels Test00\' option in dropd" +
-                        "own hierarchies", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 58
- testRunner.When("the test user clicks on delete hierarchy button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 59
- testRunner.Then("a confirmation messagge to prevent changes is rendered", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
 #line 60
- testRunner.When("the test user clicks on \'YES\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("that the test user has selected \'Global\' model", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 61
+ testRunner.And("that the test user has clicked on hieararchy button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 62
+ testRunner.And("that the test users has selected \'Automation Two levels Test00\' option in dropdow" +
+                        "n hierarchies", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 63
+ testRunner.When("the test user clicks on delete hierarchy button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 64
+ testRunner.Then("a confirmation messagge to prevent changes is rendered", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 65
+ testRunner.When("the test user clicks on \'YES\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 66
  testRunner.Then("a message notification is rendered with \'The hierarchy was deleted\' text when \'de" +
                         "lete\' hierarchy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

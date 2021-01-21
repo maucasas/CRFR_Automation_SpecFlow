@@ -36,6 +36,26 @@ namespace MDM_Automation_SpecFlow.Modules
             }   
         }
 
+        public void ClickOnDropdwonModelButton()
+        {
+            MDMmultiBarHeaderPage headerPage = new MDMmultiBarHeaderPage(CurrentDriver);
+            headerPage.ClickOnDropdownModelButton();
+            Thread.Sleep(1000);
+        }
+
+        public void ClickOnListModelByName(string modelName)
+        {
+            MDMmultiBarHeaderPage headerPage = new MDMmultiBarHeaderPage(CurrentDriver);
+            headerPage.ClickOnListModelByName(modelName);
+            Thread.Sleep(2000);
+        }
+
+        public void ClickOnHierarchiesButton()
+        {
+            MDMmultiBarHeaderPage headerPage = new MDMmultiBarHeaderPage(CurrentDriver);
+            headerPage.ClickOnHierarchiesButton();
+        }
+
         public string IsDisabledHierarchyButton()
         {
             MDMmultiBarHeaderPage headerPage = new MDMmultiBarHeaderPage(CurrentDriver);

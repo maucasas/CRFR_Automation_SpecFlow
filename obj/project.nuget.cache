@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qw3/WlW0wtAzsHpPl5+SG8t91EyNfkiJBTVN2ZSyuW39Zb1Fres5ZkoiKD79fdotTqDl1b4wvoSiTvzvcL1mww==",
+  "dgSpecHash": "VPvgxhV8EaZCzEzqIdDcajVailzf89VCRV1kGKWVnnQsOvRV99jenzLf5BSdAyq3NT3B44b34z6M3SdSW8g70Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mauricio Casas\\Documents\\Github-Azure\\MDM_Automation_SpecFlow\\MDM_Automation_SpecFlow.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\newtonsoft.json\\10.0.3\\newtonsoft.json.10.0.3.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\Mauricio Casas\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\Mauricio Casas\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

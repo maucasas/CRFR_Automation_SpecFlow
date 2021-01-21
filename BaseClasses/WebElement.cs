@@ -13,7 +13,7 @@ namespace MDM_Automation_SpecFlow.BaseClasses
 
         public IWebDriver Driver;
 
-        public List<AttributeElement> Attributes;
+        //public List<AttributeElement> Attributes;
 
         public List<IWebElement> AllMatchingResults = new List<IWebElement>();
         public int AmountElements { get; private set; }

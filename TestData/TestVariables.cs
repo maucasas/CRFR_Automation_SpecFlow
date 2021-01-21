@@ -8,6 +8,7 @@ namespace MDM_Automation_SpecFlow.TestData
     public class TestVariables
     {
         public string BaseWebUrl;
+        public string BaseAPIUrl;
         public User MetadataUser;
         public User WriteUser;
         public User ReadOnlyUser;
